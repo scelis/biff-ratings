@@ -538,22 +538,12 @@
     },
     {
       "episode": 220,
-      "date": "2024-12-17",
-      "media": "Creature Commandos ep 1-6",
+      "date": "2024-12-16",
+      "media": "Creature Commandos S1E1-2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 220,
-      "date": "2024-12-17",
-      "media": "Kraven the Hunter",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Solid Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
