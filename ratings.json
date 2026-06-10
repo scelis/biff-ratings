@@ -21,6 +21,7 @@
     "Biff": 3.5,
     "Historical Biff": 3.31,
     "Light Biff": 3.3,
+    "Soft Biff": 3.28,
     "Low Biff": 3.25,
     "Minor Biff": 3.28,
     "Reserved Biff": 3.23,
@@ -1204,103 +1205,43 @@
       }
     },
     {
-      "episode": 131,
-      "date": "2022-03-17",
-      "media": "Marvel's Spider-Man (animated)",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 130,
-      "date": "2022-03-10",
-      "media": "Peacemaker S1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 129,
       "date": "2022-03-03",
-      "media": "Legends of Tomorrow S7E13: Knocked Down, Knocked Up",
+      "media": "Legends of Tomorrow S7E13",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 128,
       "date": "2022-02-24",
-      "media": "Legends of Tomorrow S7E12: Too Legit to Quit",
+      "media": "Legends of Tomorrow S7E12",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 126,
-      "date": "2022-02-10",
-      "media": "Superman & Lois S2E1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 126,
-      "date": "2022-02-10",
-      "media": "Superman & Lois S2E2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 126,
-      "date": "2022-02-10",
-      "media": "Superman & Lois S2E3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 126,
-      "date": "2022-02-10",
-      "media": "Superman & Lois S2E4",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff",
+        "john": "Light Biff",
+        "dan": "Light Biff"
       }
     },
     {
       "episode": 125,
       "date": "2022-02-03",
-      "media": "Legends of Tomorrow S7E11: Rage Against the Machines",
+      "media": "Legends of Tomorrow S7E11",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff",
+        "john": "Light Biff",
+        "dan": "Light Biff"
       }
     },
     {
       "episode": 124,
       "date": "2022-01-27",
-      "media": "Legends of Tomorrow S7E10: The Fixed Point",
+      "media": "Legends of Tomorrow S7E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1308,9 +1249,9 @@
       "date": "2022-01-20",
       "media": "Eternals",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Light Biff",
+        "dan": "Soft Biff"
       }
     },
     {
@@ -1318,9 +1259,9 @@
       "date": "2022-01-20",
       "media": "Legends of Tomorrow S7E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
