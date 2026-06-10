@@ -5,7 +5,6 @@
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.85,
     "Strong Biff": 3.75,
-    "Solid Biff": 3.55,
     "Biff": 3.5,
     "Historical Biff": 3.3,
     "Light Biff": 3.3,
@@ -502,8 +501,8 @@
       "media": "What If? S3E4",
       "ratings": {
         "guy": "Strong Biff",
-        "john": "Solid Biff",
-        "dan": "Solid Biff"
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -541,7 +540,7 @@
       "date": "2024-12-16",
       "media": "Creature Commandos S1E1-2",
       "ratings": {
-        "guy": "Solid Biff",
+        "guy": "Biff",
         "john": "Biff",
         "dan": "Biff"
       }
@@ -552,28 +551,18 @@
       "media": "Deadpool & Wolverine",
       "ratings": {
         "guy": "Biff",
-        "john": "Solid Biff",
+        "john": "Biff",
         "dan": "Low Biff"
       }
     },
     {
       "episode": 215,
       "date": "2024-11-04",
-      "media": "Agatha All Along ep 8",
+      "media": "Agatha All Along S1E8-9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 215,
-      "date": "2024-11-04",
-      "media": "Agatha All Along ep 9",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
