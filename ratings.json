@@ -684,49 +684,19 @@
       }
     },
     {
-      "episode": 202,
-      "date": "2024-05-07",
-      "media": "X-Men '97 S1E4-7",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 200,
-      "date": "2024-04-15",
+      "date": "2024-04-14",
       "media": "X-Men Origins: Wolverine",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Alex",
+        "john": "Alex",
+        "dan": "Alex"
       }
     },
     {
       "episode": 199,
-      "date": "2024-04-02",
-      "media": "X-Men '97 ep 1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 199,
-      "date": "2024-04-02",
-      "media": "X-Men '97 ep 2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 199,
-      "date": "2024-04-02",
-      "media": "X-Men '97 ep 3",
+      "date": "2024-04-01",
+      "media": "X-Men '97 S1E1-3",
       "ratings": {
         "guy": null,
         "john": null,
