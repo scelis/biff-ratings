@@ -748,42 +748,12 @@
     },
     {
       "episode": 193,
-      "date": "2024-01-09",
-      "media": "What If? S2E1",
+      "date": "2024-01-08",
+      "media": "What If? S2E1-4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 193,
-      "date": "2024-01-09",
-      "media": "What If? S2E2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 193,
-      "date": "2024-01-09",
-      "media": "What If? S2E3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 193,
-      "date": "2024-01-09",
-      "media": "What If? S2E4",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
