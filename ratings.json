@@ -32,9 +32,7 @@
     "John Jr": 2.5,
     "Low John Jr": 2.35,
     "Weak John Jr": 2.25,
-    "Strong Alex": 1.75,
     "Alex": 1.5,
-    "Weak Alex": 1.25,
     "Garbage": 0.75
   },
   "ratings": [
@@ -860,12 +858,12 @@
     },
     {
       "episode": 182,
-      "date": "2023-08-01",
-      "media": "Secret Invasion S1E6: Home",
+      "date": "2023-07-31",
+      "media": "Secret Invasion S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Alex",
+        "john": "Alex",
+        "dan": "Alex"
       }
     },
     {
