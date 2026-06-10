@@ -12,7 +12,10 @@
     "Impeccable Biff": 3.86,
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.84,
+    "An H on the Forehead Biff": 3.8,
     "Kingpin-Sized Biff": 3.78,
+    "Two Arrows Restraining a Villain Biff": 3.77,
+    "Ball Pit Biff": 3.765,
     "Hulky Biff": 3.76,
     "Strong Biff": 3.75,
     "Unabashed Biff": 3.7,
@@ -1322,9 +1325,9 @@
       "date": "2021-12-02",
       "media": "Hawkeye S1E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Two Arrows Restraining a Villain Biff",
+        "john": "An H on the Forehead Biff",
+        "dan": "Ball Pit Biff"
       }
     },
     {
@@ -1332,9 +1335,9 @@
       "date": "2021-12-02",
       "media": "Legends of Tomorrow S7E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
