@@ -9,6 +9,7 @@
     "Light Biff": 3.3,
     "Weak Biff": 3.2,
     "Two Biffs and a John Jr": 3.16667,
+    "Very Light Biff": 3.14,
     "Very Weak Biff": 3.1,
     "Two John Jrs and a Biff": 2.83333,
     "Strong John Jr": 2.75,
@@ -365,9 +366,9 @@
       "date": "2025-04-02",
       "media": "Daredevil: Born Again S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Light Biff",
+        "john": "Light Biff",
+        "dan": "Light Biff"
       }
     },
     {
@@ -375,9 +376,9 @@
       "date": "2025-04-02",
       "media": "Daredevil: Born Again S1E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Strong Biff",
+        "john": "Very Strong Biff",
+        "dan": "Biff"
       }
     },
     {
