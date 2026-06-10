@@ -5,6 +5,7 @@
     "Ghost Biff": 3.89,
     "Five 2024 Cadillacs out of Five": 3.885,
     "Biff with Bones Coated in Adamantium": 3.882,
+    "Three Biffs from Alternate Universes Stuffed into a Spider-Man Suit": 3.8815,
     "Strongest of Biffs": 3.881,
     "Highest of Biffs": 3.88,
     "Fantastic Biff": 3.87,
@@ -1267,11 +1268,11 @@
     {
       "episode": 122,
       "date": "2022-01-13",
-      "media": "Legends of Tomorrow S7E8: Paranoid Android",
+      "media": "Legends of Tomorrow S7E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1279,9 +1280,9 @@
       "date": "2022-01-06",
       "media": "Spider-Man: No Way Home",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Three Biffs from Alternate Universes Stuffed into a Spider-Man Suit",
+        "john": "Very Strong Biff",
+        "dan": "Biff"
       }
     },
     {
