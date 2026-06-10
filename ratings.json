@@ -632,58 +632,18 @@
     },
     {
       "episode": 207,
-      "date": "2024-07-23",
+      "date": "2024-07-22",
       "media": "X-Men: Days of Future Past",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 206,
       "date": "2024-07-01",
-      "media": "My Adventures with Superman S2E1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 206,
-      "date": "2024-07-01",
-      "media": "My Adventures with Superman S2E2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 206,
-      "date": "2024-07-01",
-      "media": "My Adventures with Superman S2E3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 206,
-      "date": "2024-07-01",
-      "media": "My Adventures with Superman S2E4",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 206,
-      "date": "2024-07-01",
-      "media": "My Adventures with Superman S2E5",
+      "media": "My Adventures with Superman S2E1-5",
       "ratings": {
         "guy": null,
         "john": null,
