@@ -29,6 +29,7 @@
     "Two John Jrs and a Biff": 2.83333,
     "High John Jr": 2.8,
     "Strong John Jr": 2.75,
+    "T'Challa Jr": 2.61,
     "Good John Jr": 2.6,
     "John Jr": 2.5,
     "Low John Jr": 2.35,
@@ -928,23 +929,13 @@
       }
     },
     {
-      "episode": 172,
-      "date": "2023-04-18",
-      "media": "Daredevil: Born Again (1986 comic)",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 165,
       "date": "2022-12-19",
       "media": "Black Panther: Wakanda Forever",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "T'Challa Jr",
+        "dan": "T'Challa Jr"
       }
     },
     {
