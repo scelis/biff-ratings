@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biff! Ratings</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      padding: 1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+
+    .site-logo {
+      height: 52px;
+      width: 52px;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      color: #888;
+      font-style: italic;
+      margin-top: 0.15rem;
+    }
+
+    /* ── Two-panel container ────────────────────────────────── */
+    .main-content {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column; /* stacked on narrow windows */
+      gap: 0.75rem;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+      .main-content { flex-direction: row; }
+    }
+
+    /* ── Chart panel ─────────────────────────────────────────── */
+    .chart-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      min-width: 0;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+      .chart-panel { flex: 1; min-height: 0; }
+    }
+
+    .chart-card {
+      position: relative; /* anchors the axis overlay */
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      aspect-ratio: 2 / 1; /* natural proportions in stacked layout */
+      overflow: hidden; /* prevent canvas from overriding aspect-ratio height */
+    }
+
+    .axis-overlay {
+      position: absolute;
+      overflow: hidden;    /* clips labels scrolling off each edge */
+      pointer-events: none; /* pass mouse events to canvas unless on a link */
+    }
+
+    .axis-link {
+      position: absolute;
+      transform: translateX(-50%);
+      pointer-events: all;
+      font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #666;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      line-height: 14.4px;
+    }
+
+    .axis-link:hover {
+      color: #333;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+      .chart-card {
+        flex: 1;
+        aspect-ratio: auto; /* fills panel height in side-by-side layout */
+        min-height: 0;
+      }
+    }
+
+    .chart-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-shrink: 0;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .chart-controls button {
+      font-size: 0.8rem;
+      padding: 0.3rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .chart-controls button:hover { background: #f0f0f0; }
+
+    /* ── Table panel ─────────────────────────────────────────── */
+    .table-panel {
+      flex: 1;
+      min-height: 0;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .table-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-shrink: 0;
+    }
+
+    .table-toolbar input {
+      flex: 1;
+      max-width: 320px;
+      padding: 0.45rem 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 0.875rem;
+    }
+
+    .table-toolbar input:focus {
+      outline: none;
+      border-color: #888;
+    }
+
+    .row-count {
+      font-size: 0.8rem;
+      color: #888;
+    }
+
+    .table-scroll {
+      flex: 1;
+      min-height: 0;
+      overflow: auto;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      font-size: 0.875rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 0.75rem 1rem;
+      background: #f0f0f0;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    th::after {
+      content: "↕";
+      display: inline-block;
+      width: 1em;
+      text-align: center;
+      margin-left: 0.2em;
+      opacity: 0.25;
+      font-size: 0.75em;
+    }
+    th[data-sort="asc"]::after  { content: "↑"; opacity: 0.8; }
+    th[data-sort="desc"]::after { content: "↓"; opacity: 0.8; }
+
+    td {
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    td:nth-child(2) { white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    tbody tr { cursor: pointer; }
+    tbody tr:hover td { background: #eef3fb; }
+    tbody tr.active td { background: #dce8f8; }
+
+    .rating-cell { font-weight: 500; }
+    .absent { color: #aaa; }
+
+    .ep-link {
+      color: #222;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .ep-link:hover {
+      color: #4e79a7;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .site-footer {
+      flex-shrink: 0;
+      font-size: 0.72rem;
+      color: #999;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem 0.6rem;
+    }
+
+    .site-footer a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .site-footer a:hover { color: #555; }
+
+    .site-footer .sep { opacity: 0.4; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <img class="site-logo" src="https://www.theincomparable.com/imgs/logos/logo-biff-2x.jpg" alt="Biff! podcast logo">
+    <div>
+      <h1>Biff! Ratings</h1>
+      <p class="tagline">In which we take a silly rating system way too seriously.</p>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="chart-panel">
+      <div class="chart-card">
+        <canvas id="chart"></canvas>
+      </div>
+      <div class="chart-controls">
+        <button id="resetZoom">Reset view</button>
+        <span>Scroll or pinch to zoom · Drag to pan</span>
+      </div>
+    </div>
+
+    <div class="table-panel">
+      <div class="table-toolbar">
+        <input id="search" type="search" placeholder="Filter by title…" autocomplete="off">
+        <span class="row-count" id="rowCount"></span>
+      </div>
+      <div class="table-scroll">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Episode</th>
+              <th>Date</th>
+              <th>Media</th>
+              <th>Guy</th>
+              <th>John</th>
+              <th>Dan</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <span>Created and maintained by <a href="https://sebastiancelis.com" target="_blank" rel="noopener noreferrer">Sebastian Celis</a></span>
+    <span class="sep">·</span>
+    <span><a href="https://www.theincomparable.com/biff/" target="_blank" rel="noopener noreferrer">Biff!</a> is a podcast on <a href="https://www.theincomparable.com/" target="_blank" rel="noopener noreferrer">The Incomparable</a></span>
+    <span class="sep">·</span>
+    <span>Some content and images © The Incomparable Inc.</span>
+  </footer>
+
+  <script>
+    const HOSTS = [
+      { key: "guy",  name: "Guy English", color: "#4e79a7" },
+      { key: "john", name: "John Moltz",  color: "#f28e2b" },
+      { key: "dan",  name: "Dan Moren",   color: "#59a14f" },
+    ];
+
+    const DEFAULT_WINDOW = 40;
+    const MIN_X_RANGE = 5; // tightest zoom level (in episode-index units)
+    let chartInstance = null;
+
+    // Returns the x-axis tick step for a given visible range.
+    function tickStep(range) {
+      return [1, 2, 5, 10, 25, 50, 100].find(s => s >= range / 10) ?? 100;
+    }
+
+    function panToIndex(idx) {
+      if (!chartInstance) return;
+      const n = chartInstance.data.datasets[0].data.length;
+      const xScale = chartInstance.scales.x;
+      const range = xScale.max - xScale.min; // preserve current zoom level
+      const half = range / 2;
+      let tMin = idx - half;
+      let tMax = idx + half;
+      // Clamp to the same edge padding used by the zoom limits
+      if (tMin < -0.5)       { tMin = -0.5;       tMax = tMin + range; }
+      if (tMax > n - 0.5)    { tMax = n - 0.5;    tMin = tMax - range; }
+
+      animatePanTo(chartInstance, tMin, tMax, idx);
+    }
+
+    function animatePanTo(chart, targetMin, targetMax, tooltipIdx, duration = 600) {
+      const startMin = chart.scales.x.min;
+      const startMax = chart.scales.x.max;
+      const t0 = performance.now();
+      function ease(t) { return t < 0.5 ? 2*t*t : -1+(4-2*t)*t; }
+      function frame(now) {
+        const t = Math.min((now - t0) / duration, 1);
+        const e = ease(t);
+        const newMin = startMin + (targetMin - startMin) * e;
+        const newMax = startMax + (targetMax - startMax) * e;
+        chart.zoomScale("x", { min: newMin, max: newMax }, "none");
+        if (t < 1) {
+          requestAnimationFrame(frame);
+        } else {
+          chart.zoomScale("x", { min: targetMin, max: targetMax }, "none");
+          showTooltipAt(chart, tooltipIdx);
+        }
+      }
+      requestAnimationFrame(frame);
+    }
+
+    function showTooltipAt(chart, idx) {
+      const xPixel = chart.scales.x.getPixelForValue(idx);
+      const yPixel = (chart.chartArea.top + chart.chartArea.bottom) / 2;
+      chart.tooltip.setActiveElements(
+        HOSTS.map((_, di) => ({ datasetIndex: di, index: idx })),
+        { x: xPixel, y: yPixel }
+      );
+      chart.update();
+    }
+
+    async function init() {
+      const data = await fetch("ratings.json", { cache: "no-store" }).then(r => r.json());
+
+      const ratingByName = Object.fromEntries(data.ratings.map(r => [r.name, r.value]));
+      const nameByValue  = Object.fromEntries(data.ratings.map(r => [r.value, r.name]));
+
+      // Tag each episode with its original JSON position before sorting.
+      // The table uses jsonIndex as a tiebreaker so same-numbered episodes
+      // appear in JSON file order (newest entry first).
+      data.episodes.forEach((ep, i) => ep.jsonIndex = i);
+      const episodes = [...data.episodes].sort((a, b) =>
+        a.episode !== b.episode ? a.episode - b.episode : a.media.localeCompare(b.media)
+      );
+
+      chartInstance = buildChart(episodes, ratingByName, nameByValue, data.ratings);
+      buildTable(episodes, ratingByName);
+
+      document.getElementById("resetZoom").addEventListener("click", () => {
+        chartInstance.resetZoom();
+      });
+    }
+
+    function buildChart(episodes, ratingByName, nameByValue, ratingsConfig) {
+      // Keep only the canonical tier anchor for each tier (Alex, John Jr, Biff…).
+      // Tier anchors sit at x.5 values; variants like Weak/Strong/Spider fall
+      // within a tier and should not create their own axis ticks or bands.
+      const tierTicks = ratingsConfig.filter(r => r.value % 1 === 0.5);
+      const tierPalette = [
+        "rgba(100, 180, 100, 0.2)",
+        "rgba(255, 210, 50, 0.2)",
+        "rgba(220, 80, 80, 0.2)",
+      ];
+      const tierBands = tierTicks.map((t, i) => ({
+        min: i === 0 ? 1.0 : (tierTicks[i - 1].value + t.value) / 2,
+        max: i === tierTicks.length - 1 ? 4.0 : (t.value + tierTicks[i + 1].value) / 2,
+        color: tierPalette[i] ?? "rgba(200,200,200,0.2)",
+      }));
+
+      const bandPlugin = {
+        id: "bands",
+        beforeDraw(chart) {
+          const { ctx, chartArea, scales: { y } } = chart;
+          ctx.save();
+          for (const band of tierBands) {
+            ctx.fillStyle = band.color;
+            ctx.fillRect(
+              chartArea.left,
+              y.getPixelForValue(band.max),
+              chartArea.width,
+              y.getPixelForValue(band.min) - y.getPixelForValue(band.max)
+            );
+          }
+          ctx.restore();
+        },
+      };
+
+      const n = episodes.length;
+      const initialMin = Math.max(0, n - DEFAULT_WINDOW);
+
+      // Use {x, y} point format with a linear x-axis so zoom/pan work cleanly
+      const datasets = HOSTS.map(host => ({
+        label: host.name,
+        data: episodes.map((e, i) => {
+          const name = e.ratings[host.key];
+          return { x: i, y: name ? ratingByName[name] : null };
+        }),
+        borderColor: host.color,
+        backgroundColor: host.color,
+        pointRadius: 4,
+        pointHoverRadius: 6,
+        spanGaps: false,
+        tension: 0.1,
+      }));
+
+      // Create an HTML overlay inside the chart card so axis labels are
+      // real <a> elements — native link cursor, underline on hover, right-click
+      // menu, and accessibility for free. The overlay is clipped to the chart
+      // area width (overflow: hidden) so labels scroll on/off the edges naturally.
+      const axisOverlay = document.createElement("div");
+      axisOverlay.className = "axis-overlay";
+      document.querySelector(".chart-card").appendChild(axisOverlay);
+
+      function updateAxisLinks(chart) {
+        const { chartArea } = chart;
+        const xScale = chart.scales.x;
+        const range = xScale.max - xScale.min;
+        const step = tickStep(range);
+        const drawStart = Math.floor(xScale.min / step) * step;
+        const drawEnd   = Math.ceil(xScale.max  / step) * step;
+        const pxPerTick = chartArea.width / (range / step);
+        const showTitles = pxPerTick >= 160;
+
+        // Position overlay over the x-axis label area within the card.
+        // canvas.offsetLeft/Top give the canvas origin relative to the card.
+        const canvas = chart.canvas;
+        axisOverlay.style.left   = `${canvas.offsetLeft + chartArea.left}px`;
+        axisOverlay.style.top    = `${canvas.offsetTop  + chartArea.bottom}px`;
+        axisOverlay.style.width  = `${chartArea.width}px`;
+        axisOverlay.style.height = `${canvas.offsetHeight - chartArea.bottom}px`;
+
+        axisOverlay.innerHTML = "";
+        for (let v = drawStart; v <= drawEnd; v += step) {
+          const ep = episodes[v];
+          if (!ep) continue;
+          const a = document.createElement("a");
+          a.href   = `https://www.theincomparable.com/biff/${ep.episode}/`;
+          a.target = "_blank";
+          a.rel    = "noopener noreferrer";
+          a.className = "axis-link";
+          // Position relative to the overlay's left edge
+          a.style.left = `${xScale.getPixelForValue(v) - chartArea.left}px`;
+          a.style.top  = "3px";
+          if (showTitles) {
+            const title = ep.media.length > 26 ? ep.media.slice(0, 24) + "…" : ep.media;
+            a.innerHTML = `#${ep.episode}<br>${title}`;
+          } else {
+            a.textContent = `#${ep.episode}`;
+          }
+          axisOverlay.appendChild(a);
+        }
+      }
+
+      const titleLabelPlugin = {
+        id: "titleLabels",
+        afterDraw(chart) { updateAxisLinks(chart); },
+      };
+
+      const chart = new Chart(document.getElementById("chart"), {
+        type: "line",
+        data: { datasets },
+        plugins: [bandPlugin, titleLabelPlugin],
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          layout: { padding: { left: 20, right: 20 } },
+          interaction: { mode: "index", intersect: false },
+          scales: {
+            x: {
+              type: "linear",
+              min: initialMin,
+              max: n - 1,
+              afterBuildTicks(scale) {
+                const range = scale.max - scale.min;
+                const step = tickStep(range);
+                // Only in-view ticks enter scale.ticks so Chart.js never adds
+                // auto-padding. The plugin extends one step beyond each edge.
+                const start = Math.ceil(scale.min / step) * step;
+                const end = Math.floor(scale.max / step) * step;
+                const ticks = [];
+                for (let v = start; v <= end; v += step) {
+                  if (v >= 0 && v < n) ticks.push({ value: v });
+                }
+                scale.ticks = ticks;
+              },
+              ticks: {
+                maxRotation: 0,
+                minRotation: 0,
+                autoSkip: false,
+                // Always return ["",""] so Chart.js measures zero label width
+                // and never shifts chartArea via auto-padding. The plugin draws
+                // real labels; the two-element array reserves 2-line axis height.
+                callback: val => episodes[Math.round(val)] ? ["", ""] : "",
+              },
+            },
+            y: {
+              min: 1.0,
+              max: 4.0,
+              afterBuildTicks(scale) {
+                scale.ticks = tierTicks.map(r => ({ value: r.value }));
+              },
+              afterFit(scale) {
+                scale.width = Math.ceil(scale.width / 4) * 4;
+              },
+              ticks: {
+                callback: value => nameByValue[value] ?? "",
+              },
+              grid: {
+                color: ctx => {
+                  const v = ctx.tick?.value;
+                  return (v === 2.0 || v === 3.0) ? "#ccc" : "#eee";
+                },
+              },
+            },
+          },
+          plugins: {
+            zoom: {
+              limits: {
+                x: { min: -0.5, max: n - 0.5, minRange: MIN_X_RANGE },
+              },
+              pan: {
+                enabled: true,
+                mode: "x",
+              },
+              zoom: {
+                wheel: { enabled: true },
+                pinch: { enabled: true },
+                mode: "x",
+                onZoomStart({ chart, event }) {
+                  // When already at minRange, a further zoom-in can't shrink the
+                  // range but still re-centres on the cursor, causing an unwanted
+                  // pan. Cancel the operation entirely in that case.
+                  const xScale = chart.scales.x;
+                  const atMin = (xScale.max - xScale.min) <= MIN_X_RANGE;
+                  const zoomingIn = event.deltaY < 0;
+                  if (atMin && zoomingIn) return false;
+                },
+              },
+            },
+            tooltip: {
+              callbacks: {
+                title(items) {
+                  const ep = episodes[Math.round(items[0].parsed.x)];
+                  return ep ? `#${ep.episode}: ${ep.media}` : "";
+                },
+                label(item) {
+                  const ep = episodes[Math.round(item.parsed.x)];
+                  const host = HOSTS[item.datasetIndex];
+                  const ratingName = ep?.ratings[host.key];
+                  return ratingName
+                    ? `${host.name}: ${ratingName}`
+                    : `${host.name}: —`;
+                },
+              },
+            },
+          },
+        },
+      });
+
+      return chart;
+    }
+
+    function buildTable(episodes, ratingByName) {
+      const tbody = document.querySelector("#table tbody");
+      const allRows = []; // { tr, values[] }
+      let activeRow = null;
+
+      // sortCol: 0=Episode, 1=Date, 2=Media, 3=Guy, 4=John, 5=Dan
+      // sortDir: 1=asc, -1=desc
+      let sortCol = 0;
+      let sortDir = -1; // default: episode descending (newest first)
+
+      // Returns the numeric rating value for a host key, or null if absent.
+      const ratingValue = (ep, key) => {
+        const name = ep.ratings[key];
+        return name ? (ratingByName[name] ?? null) : null;
+      };
+
+      // Build all rows
+      episodes.forEach((ep, i) => {
+        const tr = document.createElement("tr");
+        tr.dataset.media = ep.media.toLowerCase();
+        tr.dataset.index = i;
+        tr.innerHTML = `
+          <td><a class="ep-link" href="https://www.theincomparable.com/biff/${ep.episode}/" target="_blank" rel="noopener noreferrer">${ep.episode}</a></td>
+          <td>${ep.date}</td>
+          <td>${ep.media}</td>
+          ${HOSTS.map(h => {
+            const r = ep.ratings[h.key];
+            return r
+              ? `<td class="rating-cell">${r}</td>`
+              : `<td class="absent">—</td>`;
+          }).join("")}
+        `;
+        tr.addEventListener("click", e => {
+          if (e.target.closest("a")) return; // let episode link handle itself
+          if (activeRow) activeRow.classList.remove("active");
+          activeRow = tr;
+          tr.classList.add("active");
+          panToIndex(i);
+        });
+
+        // Sortable values per column (null = absent, sorts last)
+        allRows.push({
+          tr,
+          jsonIndex: ep.jsonIndex,   // tiebreaker: original JSON file order
+          values: [
+            ep.episode,              // 0: episode number
+            ep.date,                 // 1: ISO string — lexicographic sort works
+            ep.media.toLowerCase(),  // 2: string
+            ratingValue(ep, "guy"),  // 3: numeric or null
+            ratingValue(ep, "john"), // 4: numeric or null
+            ratingValue(ep, "dan"),  // 5: numeric or null
+          ],
+        });
+      });
+
+      // --- sort & filter helpers ---
+
+      function applySort() {
+        const sorted = [...allRows].sort((a, b) => {
+          const va = a.values[sortCol];
+          const vb = b.values[sortCol];
+          if (va === null && vb === null) return 0;
+          if (va === null) return 1;  // nulls always last
+          if (vb === null) return -1;
+          if (va < vb) return -sortDir;
+          if (va > vb) return sortDir;
+          return a.jsonIndex - b.jsonIndex; // equal values: preserve JSON file order
+        });
+        for (const { tr } of sorted) tbody.appendChild(tr);
+
+        // Update header arrows
+        document.querySelectorAll("#table thead th").forEach((th, i) => {
+          th.dataset.sort = i === sortCol ? (sortDir === 1 ? "asc" : "desc") : "";
+        });
+      }
+
+      let currentQuery = "";
+
+      function applyFilter() {
+        let visible = 0;
+        for (const { tr } of allRows) {
+          const show = !currentQuery || tr.dataset.media.includes(currentQuery);
+          tr.style.display = show ? "" : "none";
+          if (show) visible++;
+        }
+        updateRowCount(visible, allRows.length);
+      }
+
+      // --- wire up header clicks ---
+      document.querySelectorAll("#table thead th").forEach((th, i) => {
+        th.addEventListener("click", () => {
+          if (sortCol === i) {
+            sortDir = -sortDir;
+          } else {
+            sortCol = i;
+            // Episode/date/ratings default desc; text columns default asc
+            sortDir = (i === 0 || i === 1 || i >= 3) ? -1 : 1;
+          }
+          applySort();
+        });
+      });
+
+      // --- initial render ---
+      applySort();
+      updateRowCount(allRows.length, allRows.length);
+
+      document.getElementById("search").addEventListener("input", e => {
+        currentQuery = e.target.value.toLowerCase().trim();
+        applyFilter();
+      });
+    }
+
+    function updateRowCount(visible, total) {
+      const el = document.getElementById("rowCount");
+      el.textContent = visible === total
+        ? `${total} entries`
+        : `${visible} of ${total} entries`;
+    }
+
+    init();
+  </script>
+</body>
+</html>

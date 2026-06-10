@@ -1,0 +1,3102 @@
+{
+  "ratings": [
+    {
+      "name": "Garbage",
+      "value": 1.05
+    },
+    {
+      "name": "Weak Alex",
+      "value": 1.25
+    },
+    {
+      "name": "Alex",
+      "value": 1.5
+    },
+    {
+      "name": "Strong Alex",
+      "value": 1.75
+    },
+    {
+      "name": "Weak John Jr",
+      "value": 2.25
+    },
+    {
+      "name": "John Jr",
+      "value": 2.5
+    },
+    {
+      "name": "Strong John Jr",
+      "value": 2.75
+    },
+    {
+      "name": "Very Weak Biff",
+      "value": 3.1
+    },
+    {
+      "name": "Weak Biff",
+      "value": 3.2
+    },
+    {
+      "name": "Light Biff",
+      "value": 3.3
+    },
+    {
+      "name": "Biff",
+      "value": 3.5
+    },
+    {
+      "name": "Strong Biff",
+      "value": 3.75
+    },
+    {
+      "name": "Very Strong Biff",
+      "value": 3.85
+    },
+    {
+      "name": "Spider Biff",
+      "value": 3.95
+    }
+  ],
+  "episodes": [
+    {
+      "episode": 267,
+      "date": "2026-06-02",
+      "media": "Spider-Noir S1E2",
+      "ratings": {
+        "guy": "Spider Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 267,
+      "date": "2026-06-02",
+      "media": "Spider-Noir S1E1",
+      "ratings": {
+        "guy": "Spider Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 266,
+      "date": "2026-05-18",
+      "media": "The Punisher: One Last Kill",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "Alex",
+        "dan": "John Jr"
+      }
+    },
+    {
+      "episode": 265,
+      "date": "2026-05-12",
+      "media": "Daredevil: Born Again S2E8",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Strong John Jr",
+        "dan": "Light Biff"
+      }
+    },
+    {
+      "episode": 264,
+      "date": "2026-05-05",
+      "media": "Daredevil: Born Again S2E7",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "Light Biff",
+        "dan": "Light Biff"
+      }
+    },
+    {
+      "episode": 263,
+      "date": "2026-04-28",
+      "media": "Daredevil: Born Again S2E6",
+      "ratings": {
+        "guy": "Strong John Jr",
+        "john": "John Jr",
+        "dan": null
+      }
+    },
+    {
+      "episode": 262,
+      "date": "2026-04-21",
+      "media": "Daredevil: Born Again S2E5",
+      "ratings": {
+        "guy": "Very Weak Biff",
+        "john": "John Jr",
+        "dan": "John Jr"
+      }
+    },
+    {
+      "episode": 261,
+      "date": "2026-04-14",
+      "media": "Daredevil: Born Again S2E4",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 260,
+      "date": "2026-04-07",
+      "media": "Daredevil: Born Again S2E3",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
+      }
+    },
+    {
+      "episode": 260,
+      "date": "2026-04-07",
+      "media": "Daredevil: Born Again S2E2",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
+      }
+    },
+    {
+      "episode": 259,
+      "date": "2026-03-31",
+      "media": "Daredevil: Born Again S2E1",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 258,
+      "date": "2026-03-24",
+      "media": "Daredevil (2003)",
+      "ratings": {
+        "guy": "Garbage",
+        "john": "Alex",
+        "dan": "Alex"
+      }
+    },
+    {
+      "episode": 257,
+      "date": "2026-03-17",
+      "media": "Ghost Rider: Spirit of Vengeance",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
+      }
+    },
+    {
+      "episode": 256,
+      "date": "2026-03-10",
+      "media": "Ghost Rider",
+      "ratings": {
+        "guy": "Alex",
+        "john": "Alex",
+        "dan": "Alex"
+      }
+    },
+    {
+      "episode": 255,
+      "date": "2026-02-25",
+      "media": "Wonder Man S1E8",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Strong Biff",
+        "dan": "Strong Biff"
+      }
+    },
+    {
+      "episode": 255,
+      "date": "2026-02-25",
+      "media": "Wonder Man S1E7",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Strong Biff",
+        "dan": "Strong Biff"
+      }
+    },
+    {
+      "episode": 254,
+      "date": "2026-02-18",
+      "media": "Wonder Man S1E6",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 254,
+      "date": "2026-02-18",
+      "media": "Wonder Man S1E5",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 253,
+      "date": "2026-02-09",
+      "media": "Wonder Man S1E4",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 253,
+      "date": "2026-02-09",
+      "media": "Wonder Man S1E3",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Very Strong Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 252,
+      "date": "2026-02-03",
+      "media": "Wonder Man S1E2",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Very Strong Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 252,
+      "date": "2026-02-03",
+      "media": "Wonder Man S1E1",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Very Strong Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 248,
+      "date": "2025-11-11",
+      "media": "Peacemaker S2",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 247,
+      "date": "2025-10-30",
+      "media": "Marvel Zombies",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
+      }
+    },
+    {
+      "episode": 246,
+      "date": "2025-10-21",
+      "media": "Eyes of Wakanda",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 245,
+      "date": "2025-09-29",
+      "media": "Thunderbolts",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 244,
+      "date": "2025-08-12",
+      "media": "Fantastic Four: First Steps",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Light Biff",
+        "dan": "Light Biff"
+      }
+    },
+    {
+      "episode": 243,
+      "date": "2025-07-25",
+      "media": "Superman (2025)",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 242,
+      "date": "2025-07-12",
+      "media": "Ironheart ep 4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 242,
+      "date": "2025-07-12",
+      "media": "Ironheart ep 5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 242,
+      "date": "2025-07-12",
+      "media": "Ironheart ep 6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 241,
+      "date": "2025-07-04",
+      "media": "Ironheart ep 1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 241,
+      "date": "2025-07-04",
+      "media": "Ironheart ep 2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 241,
+      "date": "2025-07-04",
+      "media": "Ironheart ep 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 238,
+      "date": "2025-06-04",
+      "media": "Captain America: Brave New World",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 237,
+      "date": "2025-05-28",
+      "media": "The Incredible Hulk (2008)",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 235,
+      "date": "2025-05-06",
+      "media": "New Avengers: The Sentry",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 234,
+      "date": "2025-04-22",
+      "media": "Daredevil: Born Again ep 9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 233,
+      "date": "2025-04-17",
+      "media": "Daredevil: Born Again ep 8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 232,
+      "date": "2025-04-08",
+      "media": "Daredevil: Born Again ep 7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 231,
+      "date": "2025-04-03",
+      "media": "Daredevil: Born Again ep 5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 231,
+      "date": "2025-04-03",
+      "media": "Daredevil: Born Again ep 6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 230,
+      "date": "2025-03-25",
+      "media": "Daredevil: Born Again ep 4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 229,
+      "date": "2025-03-18",
+      "media": "Daredevil: Born Again ep 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 228,
+      "date": "2025-03-10",
+      "media": "Daredevil: Born Again ep 1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 228,
+      "date": "2025-03-10",
+      "media": "Daredevil: Born Again ep 2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 227,
+      "date": "2025-02-24",
+      "media": "Spider-Man (2025) ep 6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 227,
+      "date": "2025-02-24",
+      "media": "Spider-Man (2025) ep 7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 227,
+      "date": "2025-02-24",
+      "media": "Spider-Man (2025) ep 8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 227,
+      "date": "2025-02-24",
+      "media": "Spider-Man (2025) ep 9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 227,
+      "date": "2025-02-24",
+      "media": "Spider-Man (2025) ep 10",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 226,
+      "date": "2025-02-17",
+      "media": "Spider-Man (2025) ep 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 226,
+      "date": "2025-02-17",
+      "media": "Spider-Man (2025) ep 4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 226,
+      "date": "2025-02-17",
+      "media": "Spider-Man (2025) ep 5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 225,
+      "date": "2025-02-11",
+      "media": "Spider-Man (2025) ep 1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 225,
+      "date": "2025-02-11",
+      "media": "Spider-Man (2025) ep 2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 224,
+      "date": "2025-02-03",
+      "media": "Creature Commandos",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 223,
+      "date": "2025-01-14",
+      "media": "What If? S3E5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 223,
+      "date": "2025-01-14",
+      "media": "What If? S3E6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 223,
+      "date": "2025-01-14",
+      "media": "What If? S3E7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 223,
+      "date": "2025-01-14",
+      "media": "What If? S3E8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 222,
+      "date": "2025-01-06",
+      "media": "What If? S3E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 222,
+      "date": "2025-01-06",
+      "media": "What If? S3E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 222,
+      "date": "2025-01-06",
+      "media": "What If? S3E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 222,
+      "date": "2025-01-06",
+      "media": "What If? S3E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 220,
+      "date": "2024-12-17",
+      "media": "Creature Commandos ep 1-6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 220,
+      "date": "2024-12-17",
+      "media": "Kraven the Hunter",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 218,
+      "date": "2024-11-28",
+      "media": "Deadpool & Wolverine",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 215,
+      "date": "2024-11-04",
+      "media": "Agatha All Along ep 8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 215,
+      "date": "2024-11-04",
+      "media": "Agatha All Along ep 9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 214,
+      "date": "2024-10-29",
+      "media": "Agatha All Along ep 7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 213,
+      "date": "2024-10-21",
+      "media": "Agatha All Along ep 6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 212,
+      "date": "2024-10-15",
+      "media": "Agatha All Along ep 5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 211,
+      "date": "2024-10-07",
+      "media": "Agatha All Along ep 4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 210,
+      "date": "2024-09-30",
+      "media": "Agatha All Along ep 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 209,
+      "date": "2024-09-24",
+      "media": "Agatha All Along ep 1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 209,
+      "date": "2024-09-24",
+      "media": "Agatha All Along ep 2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 207,
+      "date": "2024-07-23",
+      "media": "X-Men: Days of Future Past",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 206,
+      "date": "2024-07-01",
+      "media": "My Adventures with Superman S2E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 206,
+      "date": "2024-07-01",
+      "media": "My Adventures with Superman S2E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 206,
+      "date": "2024-07-01",
+      "media": "My Adventures with Superman S2E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 206,
+      "date": "2024-07-01",
+      "media": "My Adventures with Superman S2E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 206,
+      "date": "2024-07-01",
+      "media": "My Adventures with Superman S2E5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 205,
+      "date": "2024-06-18",
+      "media": "Logan",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 204,
+      "date": "2024-06-04",
+      "media": "X-Men '97 ep 8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 204,
+      "date": "2024-06-04",
+      "media": "X-Men '97 ep 9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 204,
+      "date": "2024-06-04",
+      "media": "X-Men '97 ep 10",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 203,
+      "date": "2024-05-14",
+      "media": "The Wolverine",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 202,
+      "date": "2024-05-07",
+      "media": "X-Men '97 ep 4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 202,
+      "date": "2024-05-07",
+      "media": "X-Men '97 ep 5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 202,
+      "date": "2024-05-07",
+      "media": "X-Men '97 ep 6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 202,
+      "date": "2024-05-07",
+      "media": "X-Men '97 ep 7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 200,
+      "date": "2024-04-15",
+      "media": "X-Men Origins: Wolverine",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 199,
+      "date": "2024-04-02",
+      "media": "X-Men '97 ep 1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 199,
+      "date": "2024-04-02",
+      "media": "X-Men '97 ep 2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 199,
+      "date": "2024-04-02",
+      "media": "X-Men '97 ep 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 198,
+      "date": "2024-03-18",
+      "media": "X-Men: The Last Stand",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 197,
+      "date": "2024-03-15",
+      "media": "X2: X-Men United",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 196,
+      "date": "2024-02-14",
+      "media": "X-Men (2000)",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 195,
+      "date": "2024-01-30",
+      "media": "Echo",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 194,
+      "date": "2024-01-25",
+      "media": "What If? S2E5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 194,
+      "date": "2024-01-25",
+      "media": "What If? S2E6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 194,
+      "date": "2024-01-25",
+      "media": "What If? S2E7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 194,
+      "date": "2024-01-25",
+      "media": "What If? S2E8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 194,
+      "date": "2024-01-25",
+      "media": "What If? S2E9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 193,
+      "date": "2024-01-09",
+      "media": "What If? S2E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 193,
+      "date": "2024-01-09",
+      "media": "What If? S2E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 193,
+      "date": "2024-01-09",
+      "media": "What If? S2E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 193,
+      "date": "2024-01-09",
+      "media": "What If? S2E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 192,
+      "date": "2023-12-18",
+      "media": "Blue Beetle",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 191,
+      "date": "2023-12-04",
+      "media": "The Marvels",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 190,
+      "date": "2023-11-20",
+      "media": "Loki S2E6: Glorious Purpose",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 189,
+      "date": "2023-11-10",
+      "media": "Loki S2E5: Science/Fiction",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 188,
+      "date": "2023-10-31",
+      "media": "Loki S2E4: Heart of the TVA",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 187,
+      "date": "2023-10-24",
+      "media": "Loki S2E3: 1893",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 186,
+      "date": "2023-10-17",
+      "media": "Loki S2E2: Breaking Brad",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 185,
+      "date": "2023-10-09",
+      "media": "Loki S2E1: Ouroboros",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 184,
+      "date": "2023-09-12",
+      "media": "Spider-Man: Across the Spider-Verse",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 183,
+      "date": "2023-08-21",
+      "media": "My Adventures with Superman S1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 182,
+      "date": "2023-08-01",
+      "media": "Secret Invasion S1E6: Home",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 181,
+      "date": "2023-07-24",
+      "media": "Secret Invasion S1E5: Harvest",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 180,
+      "date": "2023-07-17",
+      "media": "Secret Invasion S1E4: Beloved",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 179,
+      "date": "2023-07-11",
+      "media": "Secret Invasion S1E3: Betrayed",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 178,
+      "date": "2023-07-04",
+      "media": "Secret Invasion S1E2: Promises",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 177,
+      "date": "2023-06-26",
+      "media": "Secret Invasion S1E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 176,
+      "date": "2023-06-20",
+      "media": "Guardians of the Galaxy Vol. 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 175,
+      "date": "2023-05-30",
+      "media": "Ant-Man and the Wasp: Quantumania",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 172,
+      "date": "2023-04-18",
+      "media": "Daredevil: Born Again (1986 comic)",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 165,
+      "date": "2022-12-19",
+      "media": "Black Panther: Wakanda Forever",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 163,
+      "date": "2022-11-14",
+      "media": "The Sandman: Preludes & Nocturnes",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 161,
+      "date": "2022-10-24",
+      "media": "Werewolf by Night",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 160,
+      "date": "2022-10-17",
+      "media": "She-Hulk S1E9: Whose Show is This?",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 159,
+      "date": "2022-10-10",
+      "media": "She-Hulk S1E8: Ribbit and Rip It!",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 158,
+      "date": "2022-10-03",
+      "media": "She-Hulk S1E7: The Retreat",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 157,
+      "date": "2022-09-26",
+      "media": "She-Hulk S1E6: Just Jen",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 156,
+      "date": "2022-09-23",
+      "media": "She-Hulk S1E5: Mean, Green, and Straight Poured into These Jeans",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 155,
+      "date": "2022-09-13",
+      "media": "She-Hulk S1E4: Is This Not Real Magic?",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 154,
+      "date": "2022-09-05",
+      "media": "She-Hulk S1E3: The People vs. Emil Blonsky",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 153,
+      "date": "2022-08-31",
+      "media": "She-Hulk S1E2: Superhuman Law",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 152,
+      "date": "2022-08-24",
+      "media": "She-Hulk S1E1: A Normal Amount of Rage",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 148,
+      "date": "2022-07-22",
+      "media": "Thor: Love & Thunder",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 147,
+      "date": "2022-07-14",
+      "media": "Ms. Marvel S1E6: No Normal",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 146,
+      "date": "2022-07-07",
+      "media": "Ms. Marvel S1E5: Time and Again",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 145,
+      "date": "2022-06-30",
+      "media": "Ms. Marvel S1E4: Seeing Red",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 144,
+      "date": "2022-06-23",
+      "media": "Ms. Marvel S1E3: Destined",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 143,
+      "date": "2022-06-16",
+      "media": "Ms. Marvel S1E2: Crushed",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 142,
+      "date": "2022-06-09",
+      "media": "Ms. Marvel S1E1: Generation Why",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 139,
+      "date": "2022-05-19",
+      "media": "The Batman",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 138,
+      "date": "2022-05-12",
+      "media": "Doctor Strange in the Multiverse of Madness",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 137,
+      "date": "2022-05-06",
+      "media": "Moon Knight E6: Gods and Monsters",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 136,
+      "date": "2022-04-28",
+      "media": "Moon Knight E5: Asylum",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 135,
+      "date": "2022-04-21",
+      "media": "Moon Knight E4: The Tomb",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 134,
+      "date": "2022-04-14",
+      "media": "Moon Knight E3: The Friendly Type",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 133,
+      "date": "2022-04-07",
+      "media": "Moon Knight E2: Summon the Suit",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 132,
+      "date": "2022-03-31",
+      "media": "Moon Knight E1: The Goldfish Problem",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 131,
+      "date": "2022-03-17",
+      "media": "Marvel's Spider-Man (animated)",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 130,
+      "date": "2022-03-10",
+      "media": "Peacemaker S1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 129,
+      "date": "2022-03-03",
+      "media": "Legends of Tomorrow S7E13: Knocked Down, Knocked Up",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 128,
+      "date": "2022-02-24",
+      "media": "Legends of Tomorrow S7E12: Too Legit to Quit",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 126,
+      "date": "2022-02-10",
+      "media": "Superman & Lois S2E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 126,
+      "date": "2022-02-10",
+      "media": "Superman & Lois S2E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 126,
+      "date": "2022-02-10",
+      "media": "Superman & Lois S2E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 126,
+      "date": "2022-02-10",
+      "media": "Superman & Lois S2E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 125,
+      "date": "2022-02-03",
+      "media": "Legends of Tomorrow S7E11: Rage Against the Machines",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 124,
+      "date": "2022-01-27",
+      "media": "Legends of Tomorrow S7E10: The Fixed Point",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 123,
+      "date": "2022-01-20",
+      "media": "Eternals",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 123,
+      "date": "2022-01-20",
+      "media": "Legends of Tomorrow S7E9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 122,
+      "date": "2022-01-13",
+      "media": "Legends of Tomorrow S7E8: Paranoid Android",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 121,
+      "date": "2022-01-06",
+      "media": "Spider-Man: No Way Home",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 120,
+      "date": "2021-12-30",
+      "media": "Hawkeye S1E6: So This is Christmas?",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 119,
+      "date": "2021-12-16",
+      "media": "Hawkeye S1E5: Ronin",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 118,
+      "date": "2021-12-09",
+      "media": "Hawkeye S1E4: Partners, Am I Right?",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 117,
+      "date": "2021-12-02",
+      "media": "Legends of Tomorrow S7E7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 117,
+      "date": "2021-12-02",
+      "media": "Hawkeye S1E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 116,
+      "date": "2021-11-29",
+      "media": "Hawkeye S1E1: Never Meet Your Heroes",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 116,
+      "date": "2021-11-29",
+      "media": "Hawkeye S1E2: Hide and Seek",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 115,
+      "date": "2021-11-18",
+      "media": "Legends of Tomorrow S7E6: Deus Ex Latrina",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 114,
+      "date": "2021-11-12",
+      "media": "Legends of Tomorrow S7E5: It's a Mad, Mad, Mad, Mad Scientist",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 113,
+      "date": "2021-11-04",
+      "media": "Legends of Tomorrow S7E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 113,
+      "date": "2021-11-04",
+      "media": "Stargirl S2E13",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 112,
+      "date": "2021-10-28",
+      "media": "Legends of Tomorrow S7E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 112,
+      "date": "2021-10-28",
+      "media": "Stargirl S2E12",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 111,
+      "date": "2021-10-21",
+      "media": "Legends of Tomorrow S7E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 111,
+      "date": "2021-10-21",
+      "media": "Stargirl S2E11",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 110,
+      "date": "2021-10-14",
+      "media": "Legends of Tomorrow S7E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 110,
+      "date": "2021-10-14",
+      "media": "Stargirl S2E10",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 109,
+      "date": "2021-10-07",
+      "media": "What If? S1E9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 109,
+      "date": "2021-10-07",
+      "media": "Stargirl S2E9",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 108,
+      "date": "2021-09-30",
+      "media": "What If? S1E8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 108,
+      "date": "2021-09-30",
+      "media": "Stargirl S2E8",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 107,
+      "date": "2021-09-23",
+      "media": "What If? S1E7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 107,
+      "date": "2021-09-23",
+      "media": "Stargirl S2E7",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 106,
+      "date": "2021-09-16",
+      "media": "What If? S1E6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 106,
+      "date": "2021-09-16",
+      "media": "Stargirl S2E6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 105,
+      "date": "2021-09-09",
+      "media": "What If? S1E5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 105,
+      "date": "2021-09-09",
+      "media": "Stargirl S2E5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 105,
+      "date": "2021-09-09",
+      "media": "Legends of Tomorrow S6E15",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 104,
+      "date": "2021-09-02",
+      "media": "What If? S1E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 104,
+      "date": "2021-09-02",
+      "media": "Stargirl S2E4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 104,
+      "date": "2021-09-02",
+      "media": "Legends of Tomorrow S6E14",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 103,
+      "date": "2021-08-30",
+      "media": "What If? S1E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 103,
+      "date": "2021-08-30",
+      "media": "Stargirl S2E3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 103,
+      "date": "2021-08-30",
+      "media": "Legends of Tomorrow S6E13",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 102,
+      "date": "2021-08-20",
+      "media": "What If? S1E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 102,
+      "date": "2021-08-20",
+      "media": "Stargirl S2E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 102,
+      "date": "2021-08-20",
+      "media": "Legends of Tomorrow S6E12",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 101,
+      "date": "2021-08-12",
+      "media": "What If? S1E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 101,
+      "date": "2021-08-12",
+      "media": "Stargirl S2E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 101,
+      "date": "2021-08-12",
+      "media": "Legends of Tomorrow S6E11",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 100,
+      "date": "2021-07-22",
+      "media": "Legends of Tomorrow S6E10: Bad Blood",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 100,
+      "date": "2021-07-22",
+      "media": "Black Widow",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 99,
+      "date": "2021-07-15",
+      "media": "Loki E6: For All Time. Always",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 99,
+      "date": "2021-07-15",
+      "media": "Legends of Tomorrow S6E9: This is Gus",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 98,
+      "date": "2021-07-09",
+      "media": "Loki E5: Journey into Mystery",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 97,
+      "date": "2021-07-01",
+      "media": "Loki E4: The Nexus Event",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 97,
+      "date": "2021-07-01",
+      "media": "Legends of Tomorrow S6E8: Stressed Western",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 96,
+      "date": "2021-06-24",
+      "media": "Loki E3: Lamentis",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 96,
+      "date": "2021-06-24",
+      "media": "Legends of Tomorrow S6E7: Back to the Finale Part II",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 95,
+      "date": "2021-06-17",
+      "media": "Loki E2: The Variant",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 95,
+      "date": "2021-06-17",
+      "media": "Legends of Tomorrow S6E6: Bishop's Gambit",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 94,
+      "date": "2021-06-10",
+      "media": "Loki E1: Glorious Purpose",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 94,
+      "date": "2021-06-10",
+      "media": "Legends of Tomorrow S6E5: The Satanist's Apprentice",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 92,
+      "date": "2021-05-25",
+      "media": "Legends of Tomorrow S6E4: Bay of Squids",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 91,
+      "date": "2021-05-18",
+      "media": "Legends of Tomorrow S6E3: The Ex-Factor",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 90,
+      "date": "2021-05-11",
+      "media": "Legends of Tomorrow S6E2: Meat: The Legends",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 89,
+      "date": "2021-05-04",
+      "media": "Legends of Tomorrow S6E1: Ground Control to Sara Lance",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 88,
+      "date": "2021-04-27",
+      "media": "The Falcon and the Winter Soldier E6: One World, One People",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 87,
+      "date": "2021-04-20",
+      "media": "The Falcon and the Winter Soldier E5: Truth",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 86,
+      "date": "2021-04-13",
+      "media": "The Falcon and the Winter Soldier E4: The Whole World Is Watching",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 85,
+      "date": "2021-04-06",
+      "media": "The Falcon and the Winter Soldier E3: Power Broker",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 84,
+      "date": "2021-03-30",
+      "media": "The Falcon and the Winter Soldier E2: The Star-Spangled Man",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 83,
+      "date": "2021-03-23",
+      "media": "The Falcon and the Winter Soldier E1: New World Order",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 82,
+      "date": "2021-03-16",
+      "media": "Superman & Lois S1E1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 81,
+      "date": "2021-03-08",
+      "media": "WandaVision S1E9: The Series Finale",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 80,
+      "date": "2021-03-02",
+      "media": "WandaVision S1E8: Previously On",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 79,
+      "date": "2021-02-23",
+      "media": "WandaVision S1E7: Breaking the Fourth Wall",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 78,
+      "date": "2021-02-17",
+      "media": "WandaVision S1E6: All-New Halloween Spooktacular!",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 77,
+      "date": "2021-02-09",
+      "media": "WandaVision S1E5: On a Very Special Episode...",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 76,
+      "date": "2021-02-02",
+      "media": "WandaVision S1E4: We Interrupt This Program",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 75,
+      "date": "2021-01-26",
+      "media": "WandaVision S1E3: Now in Color",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 74,
+      "date": "2021-01-19",
+      "media": "WandaVision S1E1: Filmed Before a Live Studio Audience",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 74,
+      "date": "2021-01-19",
+      "media": "WandaVision S1E2: Don't Touch That Dial",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 72,
+      "date": "2020-12-30",
+      "media": "Wonder Woman 1984",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 67,
+      "date": "2020-10-30",
+      "media": "The Vision (2015 comic)",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 65,
+      "date": "2020-10-09",
+      "media": "Doom Patrol S1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 62,
+      "date": "2020-09-19",
+      "media": "Ted Lasso S1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 59,
+      "date": "2020-08-28",
+      "media": "Stargirl S1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 58,
+      "date": "2020-08-13",
+      "media": "Agents of SHIELD S7E12: The End is at Hand",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 58,
+      "date": "2020-08-13",
+      "media": "Agents of SHIELD S7E13: What We're Fighting For",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 57,
+      "date": "2020-08-06",
+      "media": "Agents of SHIELD S7E11: Brand New Day",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 56,
+      "date": "2020-07-30",
+      "media": "Agents of SHIELD S7E10: Stolen",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 55,
+      "date": "2020-07-23",
+      "media": "Agents of SHIELD S7E9: As I Have Always Been",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 54,
+      "date": "2020-07-16",
+      "media": "Agents of SHIELD S7E8: After, Before",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 53,
+      "date": "2020-07-09",
+      "media": "Agents of SHIELD S7E7: The Totally Excellent Adventures of Mack and The D",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 52,
+      "date": "2020-07-02",
+      "media": "Agents of SHIELD S7E6: Adapt or Die",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 51,
+      "date": "2020-06-25",
+      "media": "Agents of SHIELD S7E5: A Trout in the Milk",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 50,
+      "date": "2020-06-18",
+      "media": "Agents of SHIELD S7E4: Out of the Past",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 49,
+      "date": "2020-06-12",
+      "media": "Agents of SHIELD S7E3: Alien Commies from the Future!",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 48,
+      "date": "2020-06-05",
+      "media": "Legends of Tomorrow S5E14: Swan Thong",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 48,
+      "date": "2020-06-05",
+      "media": "Agents of SHIELD S7E2: Know Your Onions",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 47,
+      "date": "2020-05-28",
+      "media": "Legends of Tomorrow S5E13: The One Where We're Trapped on TV",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 47,
+      "date": "2020-05-28",
+      "media": "Agents of SHIELD S7E1: The New Deal",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 46,
+      "date": "2020-05-20",
+      "media": "Legends of Tomorrow S5E12: I Am Legends",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 45,
+      "date": "2020-05-13",
+      "media": "Legends of Tomorrow S5E11: Freaks and Greeks",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 44,
+      "date": "2020-05-06",
+      "media": "Legends of Tomorrow S5E10: Ship Broken",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 43,
+      "date": "2020-04-30",
+      "media": "Legends of Tomorrow S5E9: The Great British Fake Off",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 42,
+      "date": "2020-04-22",
+      "media": "Legends of Tomorrow S5E8: Zari, Not Zari",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 41,
+      "date": "2020-04-15",
+      "media": "Superman Returns",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 37,
+      "date": "2020-03-18",
+      "media": "Legends of Tomorrow S5E7: Romeo v Juliet: Dawn of Justness",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 36,
+      "date": "2020-03-12",
+      "media": "Legends of Tomorrow S5E6: Mr. Parker's Cul-De-Sac",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 34,
+      "date": "2020-02-26",
+      "media": "Legends of Tomorrow S5E5: Mortal Khanbat",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 33,
+      "date": "2020-02-19",
+      "media": "Legends of Tomorrow S5E4: A Head of Her Time",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 32,
+      "date": "2020-02-12",
+      "media": "Legends of Tomorrow S5E3: Slay Anything",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 31,
+      "date": "2020-02-06",
+      "media": "Arrow S8E10: Fadeout",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 30,
+      "date": "2020-01-22",
+      "media": "Arrow S8E9: Green Arrow and the Canaries",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 29,
+      "date": "2020-01-16",
+      "media": "Crisis on Infinite Earths ep 4",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 29,
+      "date": "2020-01-16",
+      "media": "Crisis on Infinite Earths ep 5",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 26,
+      "date": "2019-12-12",
+      "media": "Crisis on Infinite Earths ep 1",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 26,
+      "date": "2019-12-12",
+      "media": "Crisis on Infinite Earths ep 2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 26,
+      "date": "2019-12-12",
+      "media": "Crisis on Infinite Earths ep 3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 25,
+      "date": "2019-12-04",
+      "media": "Arrow S8E7: Purgatory",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 24,
+      "date": "2019-11-27",
+      "media": "Arrow S8E6: Reset",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 23,
+      "date": "2019-11-21",
+      "media": "Arrow S8E5: Prochnost",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 22,
+      "date": "2019-11-07",
+      "media": "Arrow S8E4: Present Tense",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 21,
+      "date": "2019-10-31",
+      "media": "Arrow S8E3: Leap of Faith",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 20,
+      "date": "2019-10-24",
+      "media": "Arrow S8E2: Welcome to Hong Kong",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 19,
+      "date": "2019-10-17",
+      "media": "Arrow S8E1: Starling City",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 18,
+      "date": "2019-10-09",
+      "media": "Batwoman S1E1: Pilot",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 16,
+      "date": "2019-09-24",
+      "media": "Superman: The Movie",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 13,
+      "date": "2019-09-03",
+      "media": "Jessica Jones S3",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 12,
+      "date": "2019-08-27",
+      "media": "Agents of SHIELD S6",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 11,
+      "date": "2019-08-14",
+      "media": "Agents of SHIELD S6E12: The Sign",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 11,
+      "date": "2019-08-14",
+      "media": "Agents of SHIELD S6E13: New Life",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 10,
+      "date": "2019-08-02",
+      "media": "Agents of SHIELD S6E11: From the Ashes",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 9,
+      "date": "2019-07-23",
+      "media": "Agents of SHIELD S6E10: Leap",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 8,
+      "date": "2019-07-19",
+      "media": "Agents of SHIELD S6E9: Collision Course Part II",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 7,
+      "date": "2019-07-09",
+      "media": "Agents of SHIELD S6E8: Collision Course Part I",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 6,
+      "date": "2019-07-02",
+      "media": "Agents of SHIELD S6E7: Toldja",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 5,
+      "date": "2019-06-25",
+      "media": "Agents of SHIELD S6E6: Inescapable",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 4,
+      "date": "2019-06-18",
+      "media": "Agents of SHIELD S6E5: The Other Thing",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 3,
+      "date": "2019-06-11",
+      "media": "Agents of SHIELD S6E4: Code Yellow",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 2,
+      "date": "2019-05-28",
+      "media": "Agents of SHIELD S6E3: Fear and Loathing on the Planet of Kitson",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 1,
+      "date": "2019-05-14",
+      "media": "Agents of SHIELD S6E1: Missing Pieces",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 1,
+      "date": "2019-05-14",
+      "media": "Agents of SHIELD S6E2: Window of Opportunity",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    }
+  ]
+}
