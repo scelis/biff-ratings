@@ -4,6 +4,7 @@
     "Super Biff": 3.9,
     "Ghost Biff": 3.89,
     "Five 2024 Cadillacs out of Five": 3.885,
+    "Biff with Bones Coated in Adamantium": 3.882,
     "Highest of Biffs": 3.88,
     "Fantastic Biff": 3.87,
     "Very Strong Biff": 3.85,
@@ -664,31 +665,11 @@
     {
       "episode": 204,
       "date": "2024-06-04",
-      "media": "X-Men '97 ep 8",
+      "media": "X-Men '97 S1E8-10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 204,
-      "date": "2024-06-04",
-      "media": "X-Men '97 ep 9",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 204,
-      "date": "2024-06-04",
-      "media": "X-Men '97 ep 10",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff with Bones Coated in Adamantium",
+        "john": "Strong Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -704,37 +685,7 @@
     {
       "episode": 202,
       "date": "2024-05-07",
-      "media": "X-Men '97 ep 4",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 202,
-      "date": "2024-05-07",
-      "media": "X-Men '97 ep 5",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 202,
-      "date": "2024-05-07",
-      "media": "X-Men '97 ep 6",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 202,
-      "date": "2024-05-07",
-      "media": "X-Men '97 ep 7",
+      "media": "X-Men '97 S1E4-7",
       "ratings": {
         "guy": null,
         "john": null,
