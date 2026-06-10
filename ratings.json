@@ -20,6 +20,7 @@
     "Low Biff": 3.25,
     "Minor Biff": 3.28,
     "Weak Biff": 3.2,
+    "Mild Biff": 3.18,
     "Two Biffs and a John Jr": 3.16667,
     "Very Light Biff": 3.14,
     "Light Biff Jr": 3.12,
@@ -761,9 +762,9 @@
       "date": "2023-12-18",
       "media": "Blue Beetle",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "High John Jr",
+        "dan": "Mild Biff"
       }
     },
     {
