@@ -377,8 +377,23 @@
       chart.update();
     }
 
+    function showError(title, message) {
+      document.body.innerHTML = `
+        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                    padding: 2rem; color: #222;">
+          <h1 style="color: #c0392b; margin-top: 0;">${title}</h1>
+          ${message}
+        </div>`;
+    }
+
     async function init() {
-      const data = await fetch("ratings.json", { cache: "no-store" }).then(r => r.json());
+      let data;
+      try {
+        data = await fetch("ratings.json", { cache: "no-store" }).then(r => r.json());
+      } catch (e) {
+        showError("Failed to load ratings.json", `<p>${e.message}</p>`);
+        return;
+      }
 
       const ratingByName = Object.fromEntries(data.ratings.map(r => [r.name, r.value]));
       const nameByValue  = Object.fromEntries(data.ratings.map(r => [r.value, r.name]));
@@ -390,6 +405,24 @@
       const episodes = [...data.episodes].sort((a, b) =>
         a.episode !== b.episode ? a.episode - b.episode : a.media.localeCompare(b.media)
       );
+
+      // Validate: collect any rating names used in episodes that don't exist
+      // in the ratings definition array.
+      const unknownRatings = new Set();
+      for (const ep of episodes) {
+        for (const key of Object.keys(ep.ratings)) {
+          const name = ep.ratings[key];
+          if (name !== null && !(name in ratingByName)) {
+            unknownRatings.add(name);
+          }
+        }
+      }
+      if (unknownRatings.size > 0) {
+        showError("Rating validation error",
+          `<p>The following rating names appear in episodes but are not defined in the ratings array:</p>
+           <ul>${[...unknownRatings].sort().map(n => `<li><code>${n}</code></li>`).join("")}</ul>`);
+        return;
+      }
 
       chartInstance = buildChart(episodes, ratingByName, nameByValue, data.ratings);
       buildTable(episodes, ratingByName);

@@ -29,8 +29,16 @@
       "value": 2.75
     },
     {
+      "name": "Two John Jrs and a Biff",
+      "value": 2.8333
+    },
+    {
       "name": "Very Weak Biff",
       "value": 3.1
+    },
+    {
+      "name": "Two Biffs and a John Jr",
+      "value": 3.16667
     },
     {
       "name": "Weak Biff",
@@ -345,61 +353,21 @@
     {
       "episode": 242,
       "date": "2025-07-12",
-      "media": "Ironheart ep 4",
+      "media": "Ironheart S1E4-6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 242,
-      "date": "2025-07-12",
-      "media": "Ironheart ep 5",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 242,
-      "date": "2025-07-12",
-      "media": "Ironheart ep 6",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 241,
       "date": "2025-07-04",
-      "media": "Ironheart ep 1",
+      "media": "Ironheart S1E1-3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 241,
-      "date": "2025-07-04",
-      "media": "Ironheart ep 2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 241,
-      "date": "2025-07-04",
-      "media": "Ironheart ep 3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Two John Jrs and a Biff",
+        "john": "Two John Jrs and a Biff",
+        "dan": "Two Biffs and a John Jr"
       }
     },
     {
