@@ -395,14 +395,14 @@
         return;
       }
 
-      const ratingByName = Object.fromEntries(data.ratings.map(r => [r.name, r.value]));
-      const nameByValue  = Object.fromEntries(data.ratings.map(r => [r.value, r.name]));
+      const ratingByName = data.rating_definitions;
+      const nameByValue  = Object.fromEntries(Object.entries(data.rating_definitions).map(([n, v]) => [v, n]));
 
       // Tag each episode with its original JSON position before sorting.
       // The table uses jsonIndex as a tiebreaker so same-numbered episodes
       // appear in JSON file order (newest entry first).
-      data.episodes.forEach((ep, i) => ep.jsonIndex = i);
-      const episodes = [...data.episodes].sort((a, b) =>
+      data.ratings.forEach((ep, i) => ep.jsonIndex = i);
+      const episodes = [...data.ratings].sort((a, b) =>
         a.episode !== b.episode ? a.episode - b.episode : a.media.localeCompare(b.media)
       );
 
@@ -424,7 +424,7 @@
         return;
       }
 
-      chartInstance = buildChart(episodes, ratingByName, nameByValue, data.ratings);
+      chartInstance = buildChart(episodes, ratingByName, nameByValue);
       buildTable(episodes, ratingByName);
 
       document.getElementById("resetZoom").addEventListener("click", () => {
@@ -432,11 +432,14 @@
       });
     }
 
-    function buildChart(episodes, ratingByName, nameByValue, ratingsConfig) {
+    function buildChart(episodes, ratingByName, nameByValue) {
       // Keep only the canonical tier anchor for each tier (Alex, John Jr, Biff…).
       // Tier anchors sit at x.5 values; variants like Weak/Strong/Spider fall
       // within a tier and should not create their own axis ticks or bands.
-      const tierTicks = ratingsConfig.filter(r => r.value % 1 === 0.5);
+      const tierTicks = Object.entries(ratingByName)
+        .filter(([, v]) => v % 1 === 0.5)
+        .map(([name, value]) => ({ name, value }))
+        .sort((a, b) => a.value - b.value);
       const tierPalette = [
         "rgba(100, 180, 100, 0.2)",
         "rgba(255, 210, 50, 0.2)",

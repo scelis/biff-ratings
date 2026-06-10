@@ -1,79 +1,25 @@
 {
+  "rating_definitions": {
+    "Spider Biff": 3.95,
+    "Super Biff": 3.9,
+    "Very Strong Biff": 3.85,
+    "Strong Biff": 3.75,
+    "Biff": 3.5,
+    "Historical Biff": 3.3,
+    "Light Biff": 3.3,
+    "Weak Biff": 3.2,
+    "Two Biffs and a John Jr": 3.16667,
+    "Very Weak Biff": 3.1,
+    "Two John Jrs and a Biff": 2.83333,
+    "Strong John Jr": 2.75,
+    "John Jr": 2.5,
+    "Weak John Jr": 2.25,
+    "Strong Alex": 1.75,
+    "Alex": 1.5,
+    "Weak Alex": 1.25,
+    "Garbage": 0.75
+  },
   "ratings": [
-    {
-      "name": "Garbage",
-      "value": 0.75
-    },
-    {
-      "name": "Weak Alex",
-      "value": 1.25
-    },
-    {
-      "name": "Alex",
-      "value": 1.5
-    },
-    {
-      "name": "Strong Alex",
-      "value": 1.75
-    },
-    {
-      "name": "Weak John Jr",
-      "value": 2.25
-    },
-    {
-      "name": "John Jr",
-      "value": 2.5
-    },
-    {
-      "name": "Strong John Jr",
-      "value": 2.75
-    },
-    {
-      "name": "Two John Jrs and a Biff",
-      "value": 2.8333
-    },
-    {
-      "name": "Very Weak Biff",
-      "value": 3.1
-    },
-    {
-      "name": "Two Biffs and a John Jr",
-      "value": 3.16667
-    },
-    {
-      "name": "Weak Biff",
-      "value": 3.2
-    },
-    {
-      "name": "Historical Biff",
-      "value": 3.3
-    },
-    {
-      "name": "Light Biff",
-      "value": 3.3
-    },
-    {
-      "name": "Biff",
-      "value": 3.5
-    },
-    {
-      "name": "Strong Biff",
-      "value": 3.75
-    },
-    {
-      "name": "Very Strong Biff",
-      "value": 3.85
-    },
-    {
-      "name": "Super Biff",
-      "value": 3.9
-    },
-    {
-      "name": "Spider Biff",
-      "value": 3.95
-    }
-  ],
-  "episodes": [
     {
       "episode": 267,
       "date": "2026-06-02",
