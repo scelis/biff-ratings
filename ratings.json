@@ -694,23 +694,13 @@
       }
     },
     {
-      "episode": 199,
-      "date": "2024-04-01",
-      "media": "X-Men '97 S1E1-3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 198,
       "date": "2024-03-18",
       "media": "X-Men: The Last Stand",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "Low John Jr",
+        "dan": "Alex"
       }
     },
     {
