@@ -5,16 +5,20 @@
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.85,
     "Strong Biff": 3.75,
+    "Solid Biff": 3.6,
     "Biff": 3.5,
     "Historical Biff": 3.3,
     "Light Biff": 3.3,
+    "Low Biff": 3.25,
     "Weak Biff": 3.2,
     "Two Biffs and a John Jr": 3.16667,
     "Very Light Biff": 3.14,
     "Very Weak Biff": 3.1,
     "Two John Jrs and a Biff": 2.83333,
+    "High John Jr": 2.8,
     "Strong John Jr": 2.75,
     "John Jr": 2.5,
+    "Low John Jr": 2.35,
     "Weak John Jr": 2.25,
     "Strong Alex": 1.75,
     "Alex": 1.5,
@@ -497,9 +501,9 @@
       "date": "2025-01-06",
       "media": "What If? S3E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Solid Biff",
+        "dan": "Solid Biff"
       }
     },
     {
@@ -507,9 +511,9 @@
       "date": "2025-01-06",
       "media": "What If? S3E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Very Strong Biff",
+        "dan": "Strong Biff"
       }
     },
     {
@@ -517,9 +521,9 @@
       "date": "2025-01-06",
       "media": "What If? S3E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Low Biff",
+        "john": "Low Biff",
+        "dan": "High John Jr"
       }
     },
     {
@@ -527,9 +531,9 @@
       "date": "2025-01-06",
       "media": "What If? S3E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Low John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
