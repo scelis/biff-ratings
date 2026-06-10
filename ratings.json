@@ -3,6 +3,7 @@
     "Spider Biff": 3.95,
     "Super Biff": 3.9,
     "Very Strong Biff": 3.85,
+    "Full-Throated Biff": 3.85,
     "Strong Biff": 3.75,
     "Biff": 3.5,
     "Historical Biff": 3.3,
@@ -396,9 +397,9 @@
       "date": "2025-03-17",
       "media": "Daredevil: Born Again S1E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Strong Biff",
+        "john": "Biff",
+        "dan": "Full-Throated Biff"
       }
     },
     {
