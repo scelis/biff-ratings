@@ -869,17 +869,17 @@
     {
       "episode": 181,
       "date": "2023-07-24",
-      "media": "Secret Invasion S1E5: Harvest",
+      "media": "Secret Invasion S1E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
       "episode": 180,
       "date": "2023-07-17",
-      "media": "Secret Invasion S1E4: Beloved",
+      "media": "Secret Invasion S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -889,7 +889,7 @@
     {
       "episode": 179,
       "date": "2023-07-11",
-      "media": "Secret Invasion S1E3: Betrayed",
+      "media": "Secret Invasion S1E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -898,8 +898,8 @@
     },
     {
       "episode": 178,
-      "date": "2023-07-04",
-      "media": "Secret Invasion S1E2: Promises",
+      "date": "2023-07-03",
+      "media": "Secret Invasion S1E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -908,7 +908,7 @@
     },
     {
       "episode": 177,
-      "date": "2023-06-26",
+      "date": "2023-06-25",
       "media": "Secret Invasion S1E1",
       "ratings": {
         "guy": null,
