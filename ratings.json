@@ -1056,15 +1056,15 @@
       "date": "2022-07-22",
       "media": "Thor: Love & Thunder",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Biff",
+        "john": "Biff",
         "dan": null
       }
     },
     {
       "episode": 147,
       "date": "2022-07-14",
-      "media": "Ms. Marvel S1E6: No Normal",
+      "media": "Ms. Marvel S1E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1074,7 +1074,7 @@
     {
       "episode": 146,
       "date": "2022-07-07",
-      "media": "Ms. Marvel S1E5: Time and Again",
+      "media": "Ms. Marvel S1E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1084,7 +1084,7 @@
     {
       "episode": 145,
       "date": "2022-06-30",
-      "media": "Ms. Marvel S1E4: Seeing Red",
+      "media": "Ms. Marvel S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1094,7 +1094,7 @@
     {
       "episode": 144,
       "date": "2022-06-23",
-      "media": "Ms. Marvel S1E3: Destined",
+      "media": "Ms. Marvel S1E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1104,7 +1104,7 @@
     {
       "episode": 143,
       "date": "2022-06-16",
-      "media": "Ms. Marvel S1E2: Crushed",
+      "media": "Ms. Marvel S1E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1114,7 +1114,7 @@
     {
       "episode": 142,
       "date": "2022-06-09",
-      "media": "Ms. Marvel S1E1: Generation Why",
+      "media": "Ms. Marvel S1E1",
       "ratings": {
         "guy": null,
         "john": null,
