@@ -45,6 +45,10 @@
       "value": 3.2
     },
     {
+      "name": "Historical Biff",
+      "value": 3.3
+    },
+    {
       "name": "Light Biff",
       "value": 3.3
     },
@@ -395,9 +399,9 @@
       "date": "2025-05-06",
       "media": "New Avengers: The Sentry",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "Historical Biff",
+        "dan": "John Jr"
       }
     },
     {
