@@ -949,23 +949,13 @@
       }
     },
     {
-      "episode": 163,
-      "date": "2022-11-14",
-      "media": "The Sandman: Preludes & Nocturnes",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 161,
       "date": "2022-10-24",
       "media": "Werewolf by Night",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
