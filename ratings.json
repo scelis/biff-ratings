@@ -386,9 +386,9 @@
       "date": "2025-03-24",
       "media": "Daredevil: Born Again S1E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
