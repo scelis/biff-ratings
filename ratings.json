@@ -415,77 +415,17 @@
     {
       "episode": 227,
       "date": "2025-02-24",
-      "media": "Spider-Man (2025) ep 6",
+      "media": "Spider-Man (2025) S1E6-10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 227,
-      "date": "2025-02-24",
-      "media": "Spider-Man (2025) ep 7",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 227,
-      "date": "2025-02-24",
-      "media": "Spider-Man (2025) ep 8",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 227,
-      "date": "2025-02-24",
-      "media": "Spider-Man (2025) ep 9",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 227,
-      "date": "2025-02-24",
-      "media": "Spider-Man (2025) ep 10",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Spider Biff",
+        "john": "Very Strong Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 226,
       "date": "2025-02-17",
-      "media": "Spider-Man (2025) ep 3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 226,
-      "date": "2025-02-17",
-      "media": "Spider-Man (2025) ep 4",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 226,
-      "date": "2025-02-17",
-      "media": "Spider-Man (2025) ep 5",
+      "media": "Spider-Man (2025) S1E3-5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -494,18 +434,8 @@
     },
     {
       "episode": 225,
-      "date": "2025-02-11",
-      "media": "Spider-Man (2025) ep 1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 225,
-      "date": "2025-02-11",
-      "media": "Spider-Man (2025) ep 2",
+      "date": "2025-02-10",
+      "media": "Spider-Man (2025) S1E1-2",
       "ratings": {
         "guy": null,
         "john": null,
