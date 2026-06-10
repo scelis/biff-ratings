@@ -23,7 +23,9 @@
     "She-Biff": 3.55,
     "Unreserved Biff": 3.51,
     "Biff of Khonshu": 3.505,
+    "Pizza Dog Biff": 3.504,
     "Christmas Owl Biff": 3.503,
+    "Biff with a Giant Mustache": 3.502,
     "Biff": 3.5,
     "Historical Biff": 3.31,
     "Light Biff": 3.3,
@@ -1187,7 +1189,8 @@
       "ratings": {
         "guy": "Weak Biff",
         "john": null,
-        "dan": "Biff Jr"
+        "dan": "Biff Jr",
+        "tony": "Biff"
       }
     },
     {
@@ -1345,29 +1348,30 @@
       "date": "2021-11-29",
       "media": "Hawkeye S1E1-2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff with a Giant Mustache",
+        "john": "Pizza Dog Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 115,
       "date": "2021-11-18",
-      "media": "Legends of Tomorrow S7E6: Deus Ex Latrina",
+      "media": "Legends of Tomorrow S7E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "Light Biff",
+        "dan": "Light Biff"
       }
     },
     {
       "episode": 114,
       "date": "2021-11-12",
-      "media": "Legends of Tomorrow S7E5: It's a Mad, Mad, Mad, Mad Scientist",
+      "media": "Legends of Tomorrow S7E5",
       "ratings": {
-        "guy": null,
+        "guy": "Biff",
         "john": null,
-        "dan": null
+        "dan": "Biff",
+        "tony": "Biff"
       }
     },
     {
