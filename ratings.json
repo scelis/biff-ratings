@@ -2,6 +2,7 @@
   "rating_definitions": {
     "Spider Biff": 3.95,
     "Super Biff": 3.9,
+    "Ghost Biff": 3.89,
     "Fantastic Biff": 3.85,
     "Highest of Biffs": 3.85,
     "Very Strong Biff": 3.85,
@@ -580,17 +581,17 @@
     {
       "episode": 213,
       "date": "2024-10-21",
-      "media": "Agatha All Along ep 6",
+      "media": "Agatha All Along S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Ghost Biff",
+        "john": "Strong Biff",
+        "dan": "Strong Biff"
       }
     },
     {
       "episode": 212,
-      "date": "2024-10-15",
-      "media": "Agatha All Along ep 5",
+      "date": "2024-10-14",
+      "media": "Agatha All Along S1E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -600,7 +601,7 @@
     {
       "episode": 211,
       "date": "2024-10-07",
-      "media": "Agatha All Along ep 4",
+      "media": "Agatha All Along S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -610,7 +611,7 @@
     {
       "episode": 210,
       "date": "2024-09-30",
-      "media": "Agatha All Along ep 3",
+      "media": "Agatha All Along S1E3",
       "ratings": {
         "guy": null,
         "john": null,
