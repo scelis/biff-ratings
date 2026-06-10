@@ -385,9 +385,9 @@
       "date": "2025-05-28",
       "media": "The Incredible Hulk (2008)",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff",
+        "john": "John Jr",
+        "dan": "Light Biff"
       }
     },
     {
