@@ -332,12 +332,12 @@
     },
     {
       "episode": 234,
-      "date": "2025-04-22",
-      "media": "Daredevil: Born Again ep 9",
+      "date": "2025-04-21",
+      "media": "Daredevil: Born Again S1E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "Strong John Jr",
+        "dan": "Light Biff"
       }
     },
     {
