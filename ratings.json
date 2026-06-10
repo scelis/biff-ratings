@@ -2,6 +2,8 @@
   "rating_definitions": {
     "Spider Biff": 3.95,
     "Super Biff": 3.9,
+    "Fantastic Biff": 3.85,
+    "Highest of Biffs": 3.85,
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.85,
     "Strong Biff": 3.75,
@@ -567,12 +569,12 @@
     },
     {
       "episode": 214,
-      "date": "2024-10-29",
-      "media": "Agatha All Along ep 7",
+      "date": "2024-10-28",
+      "media": "Agatha All Along S1E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Fantastic Biff",
+        "john": "Highest of Biffs",
+        "dan": "Highest of Biffs"
       }
     },
     {
