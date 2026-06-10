@@ -728,12 +728,12 @@
     },
     {
       "episode": 195,
-      "date": "2024-01-30",
+      "date": "2024-01-29",
       "media": "Echo",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff",
+        "john": "Light Biff",
+        "dan": "Light Biff"
       }
     },
     {
