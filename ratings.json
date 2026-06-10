@@ -447,9 +447,9 @@
       "date": "2025-02-03",
       "media": "Creature Commandos",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Light Biff",
+        "dan": "Strong John Jr"
       }
     },
     {
