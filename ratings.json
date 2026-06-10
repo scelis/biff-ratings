@@ -405,21 +405,11 @@
     {
       "episode": 228,
       "date": "2025-03-10",
-      "media": "Daredevil: Born Again S1E2",
+      "media": "Daredevil: Born Again S1E1-2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 228,
-      "date": "2025-03-10",
-      "media": "Daredevil: Born Again S1E1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
