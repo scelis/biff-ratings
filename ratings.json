@@ -5,6 +5,7 @@
     "Ghost Biff": 3.89,
     "Five 2024 Cadillacs out of Five": 3.885,
     "Biff with Bones Coated in Adamantium": 3.882,
+    "Strongest of Biffs": 3.881,
     "Highest of Biffs": 3.88,
     "Fantastic Biff": 3.87,
     "Impeccable Biff": 3.86,
@@ -779,18 +780,18 @@
     },
     {
       "episode": 190,
-      "date": "2023-11-20",
-      "media": "Loki S2E6: Glorious Purpose",
+      "date": "2023-11-19",
+      "media": "Loki S2E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Strong Biff",
+        "john": "Strongest of Biffs",
+        "dan": "Biff"
       }
     },
     {
       "episode": 189,
-      "date": "2023-11-10",
-      "media": "Loki S2E5: Science/Fiction",
+      "date": "2023-11-09",
+      "media": "Loki S2E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -800,7 +801,7 @@
     {
       "episode": 188,
       "date": "2023-10-31",
-      "media": "Loki S2E4: Heart of the TVA",
+      "media": "Loki S2E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -809,8 +810,8 @@
     },
     {
       "episode": 187,
-      "date": "2023-10-24",
-      "media": "Loki S2E3: 1893",
+      "date": "2023-10-23",
+      "media": "Loki S2E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -819,8 +820,8 @@
     },
     {
       "episode": 186,
-      "date": "2023-10-17",
-      "media": "Loki S2E2: Breaking Brad",
+      "date": "2023-10-16",
+      "media": "Loki S2E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -830,7 +831,7 @@
     {
       "episode": 185,
       "date": "2023-10-09",
-      "media": "Loki S2E1: Ouroboros",
+      "media": "Loki S2E1",
       "ratings": {
         "guy": null,
         "john": null,
