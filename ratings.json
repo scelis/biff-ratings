@@ -11,15 +11,18 @@
     "Impeccable Biff": 3.86,
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.84,
+    "Hulky Biff": 3.76,
     "Strong Biff": 3.75,
     "Unabashed Biff": 3.7,
     "Pretty Strong Biff": 3.68,
+    "She-Biff": 3.55,
     "Unreserved Biff": 3.51,
     "Biff": 3.5,
     "Historical Biff": 3.31,
     "Light Biff": 3.3,
     "Low Biff": 3.25,
     "Minor Biff": 3.28,
+    "Reserved Biff": 3.23,
     "Weak Biff": 3.2,
     "Mild Biff": 3.18,
     "Two Biffs and a John Jr": 3.16667,
@@ -961,90 +964,90 @@
     {
       "episode": 160,
       "date": "2022-10-17",
-      "media": "She-Hulk S1E9: Whose Show is This?",
+      "media": "She-Hulk S1E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 159,
       "date": "2022-10-10",
-      "media": "She-Hulk S1E8: Ribbit and Rip It!",
+      "media": "She-Hulk S1E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 158,
       "date": "2022-10-03",
-      "media": "She-Hulk S1E7: The Retreat",
+      "media": "She-Hulk S1E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 157,
       "date": "2022-09-26",
-      "media": "She-Hulk S1E6: Just Jen",
+      "media": "She-Hulk S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 156,
       "date": "2022-09-23",
-      "media": "She-Hulk S1E5: Mean, Green, and Straight Poured into These Jeans",
+      "media": "She-Hulk S1E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 155,
       "date": "2022-09-13",
-      "media": "She-Hulk S1E4: Is This Not Real Magic?",
+      "media": "She-Hulk S1E4",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Hulky Biff",
+        "john": "Biff",
         "dan": null
       }
     },
     {
       "episode": 154,
-      "date": "2022-09-05",
-      "media": "She-Hulk S1E3: The People vs. Emil Blonsky",
+      "date": "2022-09-04",
+      "media": "She-Hulk S1E3",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Hulky Biff",
+        "john": "Strong Biff",
         "dan": null
       }
     },
     {
       "episode": 153,
       "date": "2022-08-31",
-      "media": "She-Hulk S1E2: Superhuman Law",
+      "media": "She-Hulk S1E2",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Reserved Biff",
+        "john": "Biff",
         "dan": null
       }
     },
     {
       "episode": 152,
-      "date": "2022-08-24",
-      "media": "She-Hulk S1E1: A Normal Amount of Rage",
+      "date": "2022-08-23",
+      "media": "She-Hulk S1E1",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "She-Biff",
+        "john": "Biff",
         "dan": null
       }
     },
