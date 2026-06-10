@@ -918,23 +918,13 @@
       }
     },
     {
-      "episode": 176,
-      "date": "2023-06-20",
-      "media": "Guardians of the Galaxy Vol. 3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 175,
       "date": "2023-05-30",
       "media": "Ant-Man and the Wasp: Quantumania",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Mild Biff",
+        "john": "Mild Biff",
+        "dan": "Mild Biff"
       }
     },
     {
