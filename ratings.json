@@ -7,9 +7,11 @@
     "Biff with Bones Coated in Adamantium": 3.882,
     "Highest of Biffs": 3.88,
     "Fantastic Biff": 3.87,
+    "Impeccable Biff": 3.86,
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.84,
     "Strong Biff": 3.75,
+    "Unabashed Biff": 3.7,
     "Pretty Strong Biff": 3.68,
     "Unreserved Biff": 3.51,
     "Biff": 3.5,
@@ -716,12 +718,12 @@
     },
     {
       "episode": 196,
-      "date": "2024-02-14",
+      "date": "2024-02-13",
       "media": "X-Men (2000)",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Impeccable Biff",
+        "john": "Unabashed Biff",
+        "dan": "Light Biff"
       }
     },
     {
