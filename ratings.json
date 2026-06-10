@@ -355,9 +355,9 @@
       "date": "2025-04-07",
       "media": "Daredevil: Born Again S1E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
