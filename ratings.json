@@ -343,17 +343,17 @@
     {
       "episode": 233,
       "date": "2025-04-17",
-      "media": "Daredevil: Born Again ep 8",
+      "media": "Daredevil: Born Again S1E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 232,
-      "date": "2025-04-08",
-      "media": "Daredevil: Born Again ep 7",
+      "date": "2025-04-07",
+      "media": "Daredevil: Born Again S1E7",
       "ratings": {
         "guy": null,
         "john": null,
@@ -362,8 +362,8 @@
     },
     {
       "episode": 231,
-      "date": "2025-04-03",
-      "media": "Daredevil: Born Again ep 5",
+      "date": "2025-04-02",
+      "media": "Daredevil: Born Again S1E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -372,8 +372,8 @@
     },
     {
       "episode": 231,
-      "date": "2025-04-03",
-      "media": "Daredevil: Born Again ep 6",
+      "date": "2025-04-02",
+      "media": "Daredevil: Born Again S1E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -382,8 +382,8 @@
     },
     {
       "episode": 230,
-      "date": "2025-03-25",
-      "media": "Daredevil: Born Again ep 4",
+      "date": "2025-03-24",
+      "media": "Daredevil: Born Again S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -392,8 +392,8 @@
     },
     {
       "episode": 229,
-      "date": "2025-03-18",
-      "media": "Daredevil: Born Again ep 3",
+      "date": "2025-03-17",
+      "media": "Daredevil: Born Again S1E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -403,7 +403,7 @@
     {
       "episode": 228,
       "date": "2025-03-10",
-      "media": "Daredevil: Born Again ep 1",
+      "media": "Daredevil: Born Again S1E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -413,7 +413,7 @@
     {
       "episode": 228,
       "date": "2025-03-10",
-      "media": "Daredevil: Born Again ep 2",
+      "media": "Daredevil: Born Again S1E1",
       "ratings": {
         "guy": null,
         "john": null,
