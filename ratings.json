@@ -454,58 +454,48 @@
     },
     {
       "episode": 223,
-      "date": "2025-01-14",
-      "media": "What If? S3E5",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 223,
-      "date": "2025-01-14",
-      "media": "What If? S3E6",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 223,
-      "date": "2025-01-14",
-      "media": "What If? S3E7",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 223,
-      "date": "2025-01-14",
+      "date": "2025-01-13",
       "media": "What If? S3E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff",
+        "john": "Light Biff",
+        "dan": "Light Biff"
       }
     },
     {
-      "episode": 222,
-      "date": "2025-01-06",
-      "media": "What If? S3E1",
+      "episode": 223,
+      "date": "2025-01-13",
+      "media": "What If? S3E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "Strong John Jr"
+      }
+    },
+    {
+      "episode": 223,
+      "date": "2025-01-13",
+      "media": "What If? S3E6",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 223,
+      "date": "2025-01-13",
+      "media": "What If? S3E5",
+      "ratings": {
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
       "episode": 222,
       "date": "2025-01-06",
-      "media": "What If? S3E2",
+      "media": "What If? S3E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -525,7 +515,17 @@
     {
       "episode": 222,
       "date": "2025-01-06",
-      "media": "What If? S3E4",
+      "media": "What If? S3E2",
+      "ratings": {
+        "guy": null,
+        "john": null,
+        "dan": null
+      }
+    },
+    {
+      "episode": 222,
+      "date": "2025-01-06",
+      "media": "What If? S3E1",
       "ratings": {
         "guy": null,
         "john": null,
