@@ -427,9 +427,9 @@
       "date": "2025-02-17",
       "media": "Spider-Man (2025) S1E3-5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
