@@ -8,6 +8,7 @@
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.84,
     "Strong Biff": 3.75,
+    "Pretty Strong Biff": 3.68,
     "Unreserved Biff": 3.51,
     "Biff": 3.5,
     "Historical Biff": 3.31,
@@ -622,21 +623,11 @@
     {
       "episode": 209,
       "date": "2024-09-24",
-      "media": "Agatha All Along ep 1",
+      "media": "Agatha All Along S1E1-2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 209,
-      "date": "2024-09-24",
-      "media": "Agatha All Along ep 2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Pretty Strong Biff",
+        "dan": "Biff"
       }
     },
     {
