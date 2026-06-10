@@ -19,6 +19,7 @@
     "Weak Biff": 3.2,
     "Two Biffs and a John Jr": 3.16667,
     "Very Light Biff": 3.14,
+    "Light Biff Jr": 3.12,
     "Very Weak Biff": 3.1,
     "Two John Jrs and a Biff": 2.83333,
     "High John Jr": 2.8,
@@ -674,12 +675,12 @@
     },
     {
       "episode": 203,
-      "date": "2024-05-14",
+      "date": "2024-05-13",
       "media": "The Wolverine",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Light Biff Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
