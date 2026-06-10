@@ -25,6 +25,7 @@
     "Reserved Biff": 3.23,
     "Weak Biff": 3.2,
     "Mild Biff": 3.18,
+    "Biff Jr": 3.17,
     "Two Biffs and a John Jr": 3.16667,
     "Very Light Biff": 3.14,
     "Light Biff Jr": 3.12,
@@ -1126,9 +1127,9 @@
       "date": "2022-05-19",
       "media": "The Batman",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Mild Biff",
+        "john": "John Jr",
+        "dan": "Biff Jr"
       }
     },
     {
