@@ -20,6 +20,7 @@
     "Hulky Biff": 3.76,
     "Strong Biff": 3.75,
     "Unabashed Biff": 3.7,
+    "Captain Biff": 3.69,
     "Pretty Strong Biff": 3.68,
     "She-Biff": 3.55,
     "Unreserved Biff": 3.51,
@@ -27,6 +28,7 @@
     "Pizza Dog Biff": 3.504,
     "Christmas Owl Biff": 3.503,
     "Biff with a Giant Mustache": 3.502,
+    "Biff Conklin Dressed in a Thanos Mask": 3.501,
     "Biff": 3.5,
     "Historical Biff": 3.31,
     "Light Biff": 3.3,
@@ -46,6 +48,7 @@
     "Strong John Jr": 2.75,
     "T'Challa Jr": 2.61,
     "Good John Jr": 2.6,
+    "John Constantine Jr": 2.501,
     "John Jr": 2.5,
     "Low John Jr": 2.35,
     "Weak John Jr": 2.25,
@@ -1633,9 +1636,9 @@
       "date": "2021-08-20",
       "media": "What If? S1E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff Conklin Dressed in a Thanos Mask",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1643,9 +1646,9 @@
       "date": "2021-08-20",
       "media": "Stargirl S2E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Mild Biff",
+        "john": "Mild Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1653,9 +1656,9 @@
       "date": "2021-08-20",
       "media": "Legends of Tomorrow S6E12",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1663,9 +1666,9 @@
       "date": "2021-08-12",
       "media": "What If? S1E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Captain Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1673,8 +1676,8 @@
       "date": "2021-08-12",
       "media": "Stargirl S2E1",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Biff",
+        "john": "Biff",
         "dan": null
       }
     },
@@ -1683,25 +1686,25 @@
       "date": "2021-08-12",
       "media": "Legends of Tomorrow S6E11",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 100,
       "date": "2021-07-22",
-      "media": "Legends of Tomorrow S6E10: Bad Blood",
+      "media": "Legends of Tomorrow S6E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Alex",
+        "john": "John Jr",
+        "dan": "John Constantine Jr"
       }
     },
     {
-      "episode": 100,
-      "date": "2021-07-22",
-      "media": "Black Widow",
+      "episode": 99,
+      "date": "2021-07-15",
+      "media": "Loki S1E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1711,17 +1714,7 @@
     {
       "episode": 99,
       "date": "2021-07-15",
-      "media": "Loki E6: For All Time. Always",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 99,
-      "date": "2021-07-15",
-      "media": "Legends of Tomorrow S6E9: This is Gus",
+      "media": "Legends of Tomorrow S6E9",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1731,7 +1724,7 @@
     {
       "episode": 98,
       "date": "2021-07-09",
-      "media": "Loki E5: Journey into Mystery",
+      "media": "Loki S1E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1741,7 +1734,7 @@
     {
       "episode": 97,
       "date": "2021-07-01",
-      "media": "Loki E4: The Nexus Event",
+      "media": "Loki S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1751,7 +1744,7 @@
     {
       "episode": 97,
       "date": "2021-07-01",
-      "media": "Legends of Tomorrow S6E8: Stressed Western",
+      "media": "Legends of Tomorrow S6E8",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1761,7 +1754,7 @@
     {
       "episode": 96,
       "date": "2021-06-24",
-      "media": "Loki E3: Lamentis",
+      "media": "Loki S1E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1771,7 +1764,7 @@
     {
       "episode": 96,
       "date": "2021-06-24",
-      "media": "Legends of Tomorrow S6E7: Back to the Finale Part II",
+      "media": "Legends of Tomorrow S6E7",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1781,7 +1774,7 @@
     {
       "episode": 95,
       "date": "2021-06-17",
-      "media": "Loki E2: The Variant",
+      "media": "Loki S1E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1791,7 +1784,7 @@
     {
       "episode": 95,
       "date": "2021-06-17",
-      "media": "Legends of Tomorrow S6E6: Bishop's Gambit",
+      "media": "Legends of Tomorrow S6E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1801,7 +1794,7 @@
     {
       "episode": 94,
       "date": "2021-06-10",
-      "media": "Loki E1: Glorious Purpose",
+      "media": "Loki S1E1",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1811,7 +1804,7 @@
     {
       "episode": 94,
       "date": "2021-06-10",
-      "media": "Legends of Tomorrow S6E5: The Satanist's Apprentice",
+      "media": "Legends of Tomorrow S6E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1821,7 +1814,7 @@
     {
       "episode": 92,
       "date": "2021-05-25",
-      "media": "Legends of Tomorrow S6E4: Bay of Squids",
+      "media": "Legends of Tomorrow S6E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1831,7 +1824,7 @@
     {
       "episode": 91,
       "date": "2021-05-18",
-      "media": "Legends of Tomorrow S6E3: The Ex-Factor",
+      "media": "Legends of Tomorrow S6E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1841,7 +1834,7 @@
     {
       "episode": 90,
       "date": "2021-05-11",
-      "media": "Legends of Tomorrow S6E2: Meat: The Legends",
+      "media": "Legends of Tomorrow S6E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1851,7 +1844,7 @@
     {
       "episode": 89,
       "date": "2021-05-04",
-      "media": "Legends of Tomorrow S6E1: Ground Control to Sara Lance",
+      "media": "Legends of Tomorrow S6E1",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1861,7 +1854,7 @@
     {
       "episode": 88,
       "date": "2021-04-27",
-      "media": "The Falcon and the Winter Soldier E6: One World, One People",
+      "media": "The Falcon and the Winter Soldier S1E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1871,7 +1864,7 @@
     {
       "episode": 87,
       "date": "2021-04-20",
-      "media": "The Falcon and the Winter Soldier E5: Truth",
+      "media": "The Falcon and the Winter Soldier S1E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1881,7 +1874,7 @@
     {
       "episode": 86,
       "date": "2021-04-13",
-      "media": "The Falcon and the Winter Soldier E4: The Whole World Is Watching",
+      "media": "The Falcon and the Winter Soldier S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1891,7 +1884,7 @@
     {
       "episode": 85,
       "date": "2021-04-06",
-      "media": "The Falcon and the Winter Soldier E3: Power Broker",
+      "media": "The Falcon and the Winter Soldier S1E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1901,7 +1894,7 @@
     {
       "episode": 84,
       "date": "2021-03-30",
-      "media": "The Falcon and the Winter Soldier E2: The Star-Spangled Man",
+      "media": "The Falcon and the Winter Soldier S1E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1911,7 +1904,7 @@
     {
       "episode": 83,
       "date": "2021-03-23",
-      "media": "The Falcon and the Winter Soldier E1: New World Order",
+      "media": "The Falcon and the Winter Soldier S1E1",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1931,7 +1924,7 @@
     {
       "episode": 81,
       "date": "2021-03-08",
-      "media": "WandaVision S1E9: The Series Finale",
+      "media": "WandaVision S1E9",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1941,7 +1934,7 @@
     {
       "episode": 80,
       "date": "2021-03-02",
-      "media": "WandaVision S1E8: Previously On",
+      "media": "WandaVision S1E8",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1951,7 +1944,7 @@
     {
       "episode": 79,
       "date": "2021-02-23",
-      "media": "WandaVision S1E7: Breaking the Fourth Wall",
+      "media": "WandaVision S1E7",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1961,7 +1954,7 @@
     {
       "episode": 78,
       "date": "2021-02-17",
-      "media": "WandaVision S1E6: All-New Halloween Spooktacular!",
+      "media": "WandaVision S1E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1971,7 +1964,7 @@
     {
       "episode": 77,
       "date": "2021-02-09",
-      "media": "WandaVision S1E5: On a Very Special Episode...",
+      "media": "WandaVision S1E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1981,7 +1974,7 @@
     {
       "episode": 76,
       "date": "2021-02-02",
-      "media": "WandaVision S1E4: We Interrupt This Program",
+      "media": "WandaVision S1E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -1991,7 +1984,7 @@
     {
       "episode": 75,
       "date": "2021-01-26",
-      "media": "WandaVision S1E3: Now in Color",
+      "media": "WandaVision S1E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2001,7 +1994,7 @@
     {
       "episode": 74,
       "date": "2021-01-19",
-      "media": "WandaVision S1E1: Filmed Before a Live Studio Audience",
+      "media": "WandaVision S1E1",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2011,7 +2004,7 @@
     {
       "episode": 74,
       "date": "2021-01-19",
-      "media": "WandaVision S1E2: Don't Touch That Dial",
+      "media": "WandaVision S1E2",
       "ratings": {
         "guy": null,
         "john": null,
