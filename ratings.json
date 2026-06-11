@@ -8,6 +8,7 @@
     "Three Biffs from Alternate Universes Stuffed into a Spider-Man Suit": 3.8815,
     "Strongest of Biffs": 3.881,
     "Highest of Biffs": 3.88,
+    "Super Strong Biff": 3.875,
     "Fantastic Biff": 3.87,
     "Impeccable Biff": 3.86,
     "Very Strong Biff": 3.85,
@@ -18,11 +19,14 @@
     "Two Arrows Restraining a Villain Biff": 3.77,
     "Ball Pit Biff": 3.765,
     "Hulky Biff": 3.76,
+    "Worth Staying Up Way Past Your Bedtime to Watch Kind of Biff": 3.751,
     "Strong Biff": 3.75,
+    "B-15-Level Biff": 3.745,
     "Unabashed Biff": 3.7,
     "Captain Biff": 3.69,
     "Pretty Strong Biff": 3.68,
     "She-Biff": 3.55,
+    "Biff from Space": 3.52,
     "Unreserved Biff": 3.51,
     "Biff of Khonshu": 3.505,
     "Pizza Dog Biff": 3.504,
@@ -30,8 +34,11 @@
     "Biff with a Giant Mustache": 3.502,
     "Biff Conklin Dressed in a Thanos Mask": 3.501,
     "Biff": 3.5,
+    "Golf Cart Chase Full of Jokes Biff": 3.495,
+    "Future TOKIN' Biff": 3.49,
     "Historical Biff": 3.31,
     "Light Biff": 3.3,
+    "Fried Calamari of a Biff": 3.29,
     "Soft Biff": 3.28,
     "Low Biff": 3.25,
     "Minor Biff": 3.28,
@@ -1706,9 +1713,9 @@
       "date": "2021-07-15",
       "media": "Loki S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1716,9 +1723,9 @@
       "date": "2021-07-15",
       "media": "Legends of Tomorrow S6E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff from Space",
+        "john": "Future TOKIN' Biff",
+        "dan": "Golf Cart Chase Full of Jokes Biff"
       }
     },
     {
@@ -1726,9 +1733,9 @@
       "date": "2021-07-09",
       "media": "Loki S1E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1736,9 +1743,9 @@
       "date": "2021-07-01",
       "media": "Loki S1E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "B-15-Level Biff",
+        "john": "Worth Staying Up Way Past Your Bedtime to Watch Kind of Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1746,9 +1753,9 @@
       "date": "2021-07-01",
       "media": "Legends of Tomorrow S6E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1756,9 +1763,9 @@
       "date": "2021-06-24",
       "media": "Loki S1E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1766,9 +1773,9 @@
       "date": "2021-06-24",
       "media": "Legends of Tomorrow S6E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1776,9 +1783,9 @@
       "date": "2021-06-17",
       "media": "Loki S1E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1786,9 +1793,9 @@
       "date": "2021-06-17",
       "media": "Legends of Tomorrow S6E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Fried Calamari of a Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1796,9 +1803,9 @@
       "date": "2021-06-10",
       "media": "Loki S1E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Super Strong Biff",
+        "john": "Strong Biff",
+        "dan": "Strong Biff"
       }
     },
     {
@@ -1806,9 +1813,9 @@
       "date": "2021-06-10",
       "media": "Legends of Tomorrow S6E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1816,9 +1823,9 @@
       "date": "2021-05-25",
       "media": "Legends of Tomorrow S6E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
@@ -1826,9 +1833,9 @@
       "date": "2021-05-18",
       "media": "Legends of Tomorrow S6E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
@@ -1836,9 +1843,9 @@
       "date": "2021-05-11",
       "media": "Legends of Tomorrow S6E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Big Belly Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1846,9 +1853,9 @@
       "date": "2021-05-04",
       "media": "Legends of Tomorrow S6E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
