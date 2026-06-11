@@ -13,6 +13,7 @@
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.84,
     "An H on the Forehead Biff": 3.8,
+    "Big Belly Biff": 3.79,
     "Kingpin-Sized Biff": 3.78,
     "Two Arrows Restraining a Villain Biff": 3.77,
     "Ball Pit Biff": 3.765,
@@ -1377,31 +1378,21 @@
     {
       "episode": 113,
       "date": "2021-11-04",
-      "media": "Legends of Tomorrow S7E4",
+      "media": "Stargirl S2E13",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "John Jr",
+        "dan": "Biff"
       }
     },
     {
       "episode": 113,
       "date": "2021-11-04",
-      "media": "Stargirl S2E13",
+      "media": "Legends of Tomorrow S7E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 112,
-      "date": "2021-10-28",
-      "media": "Legends of Tomorrow S7E3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1409,19 +1400,19 @@
       "date": "2021-10-28",
       "media": "Stargirl S2E12",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Big Belly Biff",
+        "john": "Light Biff",
+        "dan": "Biff"
       }
     },
     {
-      "episode": 111,
-      "date": "2021-10-21",
-      "media": "Legends of Tomorrow S7E2",
+      "episode": 112,
+      "date": "2021-10-28",
+      "media": "Legends of Tomorrow S7E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1429,19 +1420,19 @@
       "date": "2021-10-21",
       "media": "Stargirl S2E11",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Pretty Strong Biff",
+        "john": "Pretty Strong Biff",
+        "dan": "Biff"
       }
     },
     {
-      "episode": 110,
-      "date": "2021-10-14",
-      "media": "Legends of Tomorrow S7E1",
+      "episode": 111,
+      "date": "2021-10-21",
+      "media": "Legends of Tomorrow S7E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Weak Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1449,9 +1440,19 @@
       "date": "2021-10-14",
       "media": "Stargirl S2E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 110,
+      "date": "2021-10-14",
+      "media": "Legends of Tomorrow S7E1",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
