@@ -1460,9 +1460,9 @@
       "date": "2021-10-07",
       "media": "What If? S1E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1470,9 +1470,9 @@
       "date": "2021-10-07",
       "media": "Stargirl S2E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong John Jr",
+        "john": "Strong John Jr",
+        "dan": "Biff Jr"
       }
     },
     {
@@ -1480,9 +1480,9 @@
       "date": "2021-09-30",
       "media": "What If? S1E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1490,9 +1490,9 @@
       "date": "2021-09-30",
       "media": "Stargirl S2E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Weak Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1500,9 +1500,9 @@
       "date": "2021-09-23",
       "media": "What If? S1E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1510,9 +1510,9 @@
       "date": "2021-09-23",
       "media": "Stargirl S2E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Weak Biff",
+        "john": "Strong John Jr",
+        "dan": "Mild Biff"
       }
     },
     {
@@ -1520,9 +1520,9 @@
       "date": "2021-09-16",
       "media": "What If? S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
@@ -1530,9 +1530,9 @@
       "date": "2021-09-16",
       "media": "Stargirl S2E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1540,9 +1540,9 @@
       "date": "2021-09-09",
       "media": "What If? S1E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1550,9 +1550,9 @@
       "date": "2021-09-09",
       "media": "Stargirl S2E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1560,9 +1560,9 @@
       "date": "2021-09-09",
       "media": "Legends of Tomorrow S6E15",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
@@ -1570,9 +1570,9 @@
       "date": "2021-09-02",
       "media": "What If? S1E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1580,9 +1580,9 @@
       "date": "2021-09-02",
       "media": "Stargirl S2E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1590,9 +1590,9 @@
       "date": "2021-09-02",
       "media": "Legends of Tomorrow S6E14",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Weak Biff",
+        "john": "Weak Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1600,9 +1600,10 @@
       "date": "2021-08-30",
       "media": "What If? S1E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Strong Biff",
+        "john": "Biff",
+        "dan": null,
+        "james": "Strong Biff"
       }
     },
     {
@@ -1610,9 +1611,10 @@
       "date": "2021-08-30",
       "media": "Stargirl S2E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Low John Jr",
+        "john": "John Jr",
+        "dan": null,
+        "james": "Alex"
       }
     },
     {
@@ -1620,9 +1622,10 @@
       "date": "2021-08-30",
       "media": "Legends of Tomorrow S6E13",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": null,
+        "james": "John Jr"
       }
     },
     {
