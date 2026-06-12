@@ -52,7 +52,7 @@
       border-radius: 8px;
       padding: 1.5rem;
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      aspect-ratio: 2 / 1; /* natural proportions in stacked layout */
+      aspect-ratio: 3 / 2; /* natural proportions in stacked layout */
       overflow: hidden; /* prevent canvas from overriding aspect-ratio height */
     }
 
@@ -210,6 +210,23 @@
       text-underline-offset: 2px;
     }
 
+    .th-short { display: none; }
+
+    @media (max-width: 600px) {
+      body { padding: 0.75rem 1rem; }
+      .chart-card { padding: 0.75rem; }
+      th, td { padding: 0.5rem 0.6rem; }
+      table { font-size: 0.8rem; table-layout: fixed; width: 390px; }
+      th:nth-child(1) { width: 48px; }
+      th:nth-child(3) { width: 126px; }
+      th:nth-child(4) { width: 72px; }
+      th:nth-child(5) { width: 72px; }
+      th:nth-child(6) { width: 72px; }
+      th:nth-child(2), td:nth-child(2) { display: none; }
+      .th-full { display: none; }
+      .th-short { display: inline; }
+    }
+
   </style>
 </head>
 <body>
@@ -235,7 +252,7 @@
         <table id="table">
           <thead>
             <tr>
-              <th>Episode</th>
+              <th><span class="th-full">Episode</span><span class="th-short">Ep.</span></th>
               <th>Date</th>
               <th>Media</th>
               <th>Guy</th>
@@ -488,6 +505,7 @@
         afterDraw(chart) { updateAxisLinks(chart); },
       };
 
+      const isMobile = window.innerWidth < 600;
       const chart = new Chart(document.getElementById("chart"), {
         type: "line",
         data: { datasets },
@@ -495,7 +513,7 @@
         options: {
           responsive: true,
           maintainAspectRatio: false,
-          layout: { padding: { left: 20, right: 20 } },
+          layout: { padding: { left: isMobile ? 10 : 20, right: isMobile ? 10 : 20 } },
           interaction: { mode: "index", intersect: false },
           scales: {
             x: {
@@ -522,7 +540,7 @@
                 // Always return ["",""] so Chart.js measures zero label width
                 // and never shifts chartArea via auto-padding. The plugin draws
                 // real labels; the two-element array reserves 2-line axis height.
-                callback: val => episodes[Math.round(val)] ? ["", ""] : "",
+                callback: val => episodes[Math.round(val)] ? (isMobile ? [""] : ["", ""]) : "",
               },
             },
             y: {
@@ -546,6 +564,11 @@
             },
           },
           plugins: {
+            legend: {
+              labels: isMobile
+                ? { font: { size: 11 }, boxWidth: 24, padding: 8 }
+                : {},
+            },
             zoom: {
               limits: {
                 x: { min: -0.5, max: n - 0.5, minRange: MIN_X_RANGE },

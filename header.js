@@ -12,10 +12,12 @@
 
   document.currentScript.insertAdjacentHTML('beforebegin',
     `<header class="site-header">
-    <img class="site-logo" src="logo.jpg" alt="Biff! podcast logo">
-    <div>
-      <h1>Biff! Ratings</h1>
-      <p class="tagline">In which we take a silly rating system very seriously.</p>
+    <div class="site-header-main">
+      <img class="site-logo" src="logo.jpg" alt="Biff! podcast logo">
+      <div>
+        <h1>Biff! Ratings</h1>
+        <p class="tagline">In which we take a silly rating system very seriously.</p>
+      </div>
     </div>
     <nav class="site-nav">
       ${links}
