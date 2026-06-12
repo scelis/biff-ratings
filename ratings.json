@@ -46,6 +46,7 @@
     "Soft Biff": 3.28,
     "Low Biff": 3.25,
     "Minor Biff": 3.28,
+    "Biff Minus": 3.25,
     "Reserved Biff": 3.23,
     "Weak Biff": 3.2,
     "Mild Biff": 3.18,
@@ -2004,23 +2005,13 @@
       }
     },
     {
-      "episode": 72,
-      "date": "2020-12-30",
-      "media": "Wonder Woman 1984",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 67,
       "date": "2020-10-30",
-      "media": "The Vision (2015 comic)",
+      "media": "The Vision (2015-2016 comic)",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2028,19 +2019,9 @@
       "date": "2020-10-09",
       "media": "Doom Patrol S1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 62,
-      "date": "2020-09-19",
-      "media": "Ted Lasso S1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff Minus"
       }
     },
     {
@@ -2048,25 +2029,15 @@
       "date": "2020-08-28",
       "media": "Stargirl S1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 58,
       "date": "2020-08-13",
-      "media": "Agents of SHIELD S7E12: The End is at Hand",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 58,
-      "date": "2020-08-13",
-      "media": "Agents of SHIELD S7E13: What We're Fighting For",
+      "media": "Agents of SHIELD S7E12-13",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2076,7 +2047,7 @@
     {
       "episode": 57,
       "date": "2020-08-06",
-      "media": "Agents of SHIELD S7E11: Brand New Day",
+      "media": "Agents of SHIELD S7E11",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2086,7 +2057,7 @@
     {
       "episode": 56,
       "date": "2020-07-30",
-      "media": "Agents of SHIELD S7E10: Stolen",
+      "media": "Agents of SHIELD S7E10",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2096,7 +2067,7 @@
     {
       "episode": 55,
       "date": "2020-07-23",
-      "media": "Agents of SHIELD S7E9: As I Have Always Been",
+      "media": "Agents of SHIELD S7E9",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2106,7 +2077,7 @@
     {
       "episode": 54,
       "date": "2020-07-16",
-      "media": "Agents of SHIELD S7E8: After, Before",
+      "media": "Agents of SHIELD S7E8",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2116,7 +2087,7 @@
     {
       "episode": 53,
       "date": "2020-07-09",
-      "media": "Agents of SHIELD S7E7: The Totally Excellent Adventures of Mack and The D",
+      "media": "Agents of SHIELD S7E7",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2126,7 +2097,7 @@
     {
       "episode": 52,
       "date": "2020-07-02",
-      "media": "Agents of SHIELD S7E6: Adapt or Die",
+      "media": "Agents of SHIELD S7E6",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2136,7 +2107,7 @@
     {
       "episode": 51,
       "date": "2020-06-25",
-      "media": "Agents of SHIELD S7E5: A Trout in the Milk",
+      "media": "Agents of SHIELD S7E5",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2146,7 +2117,7 @@
     {
       "episode": 50,
       "date": "2020-06-18",
-      "media": "Agents of SHIELD S7E4: Out of the Past",
+      "media": "Agents of SHIELD S7E4",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2156,7 +2127,7 @@
     {
       "episode": 49,
       "date": "2020-06-12",
-      "media": "Agents of SHIELD S7E3: Alien Commies from the Future!",
+      "media": "Agents of SHIELD S7E3",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2166,7 +2137,7 @@
     {
       "episode": 48,
       "date": "2020-06-05",
-      "media": "Legends of Tomorrow S5E14: Swan Thong",
+      "media": "Legends of Tomorrow S5E14",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2176,7 +2147,7 @@
     {
       "episode": 48,
       "date": "2020-06-05",
-      "media": "Agents of SHIELD S7E2: Know Your Onions",
+      "media": "Agents of SHIELD S7E2",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2186,7 +2157,7 @@
     {
       "episode": 47,
       "date": "2020-05-28",
-      "media": "Legends of Tomorrow S5E13: The One Where We're Trapped on TV",
+      "media": "Legends of Tomorrow S5E13",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2196,7 +2167,7 @@
     {
       "episode": 47,
       "date": "2020-05-28",
-      "media": "Agents of SHIELD S7E1: The New Deal",
+      "media": "Agents of SHIELD S7E1",
       "ratings": {
         "guy": null,
         "john": null,
@@ -2206,7 +2177,7 @@
     {
       "episode": 46,
       "date": "2020-05-20",
-      "media": "Legends of Tomorrow S5E12: I Am Legends",
+      "media": "Legends of Tomorrow S5E12",
       "ratings": {
         "guy": null,
         "john": null,
