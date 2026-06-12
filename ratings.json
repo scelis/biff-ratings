@@ -1,7 +1,8 @@
 {
   "rating_definitions": {
     "Spider Biff": 3.95,
-    "Super Biff": 3.9,
+    "Super Biff": 3.91,
+    "Level 5 Biff": 3.9,
     "Ghost Biff": 3.89,
     "Five 2024 Cadillacs out of Five": 3.885,
     "Biff with Bones Coated in Adamantium": 3.882,
@@ -9,6 +10,7 @@
     "Strongest of Biffs": 3.881,
     "Highest of Biffs": 3.88,
     "Super Strong Biff": 3.875,
+    "Biff in Space": 3.873,
     "Fantastic Biff": 3.87,
     "Impeccable Biff": 3.86,
     "Very Strong Biff": 3.85,
@@ -19,24 +21,36 @@
     "Two Arrows Restraining a Villain Biff": 3.77,
     "Ball Pit Biff": 3.765,
     "Hulky Biff": 3.76,
+    "Level 4.2 Biff": 3.755,
     "Worth Staying Up Way Past Your Bedtime to Watch Kind of Biff": 3.751,
     "Strong Biff": 3.75,
     "B-15-Level Biff": 3.745,
     "Top Secret Level 4 Biff": 3.73,
+    "Level 4 Biff": 3.72,
+    "Four Biffs": 3.72,
+    "Sarah Jr": 3.715,
+    "Waverider Biff": 3.71,
     "Unabashed Biff": 3.7,
     "Captain Biff": 3.69,
+    "Encore Biff": 3.685,
     "Pretty Strong Biff": 3.68,
+    "Barking Jack Russell Terrier Biff": 3.57,
     "Carl Lumbly": 3.56,
     "She-Biff": 3.55,
     "Wanda": 3.54,
     "Biff from Space": 3.52,
     "Unreserved Biff": 3.51,
+    "Alien Biff from the Future": 3.506,
     "Biff of Khonshu": 3.505,
     "Pizza Dog Biff": 3.504,
     "Christmas Owl Biff": 3.503,
     "Biff with a Giant Mustache": 3.502,
     "Biff Conklin Dressed in a Thanos Mask": 3.501,
+    "Biff Conklin": 3.5007,
     "Monica Rambiff": 3.5005,
+    "Captain Sarah Lance": 3.501,
+    "Three out of Five Biffs": 3.5002,
+    "Level 3 Biff": 3.5001,
     "Biff": 3.5,
     "Golf Cart Chase Full of Jokes Biff": 3.495,
     "Future TOKIN' Biff": 3.49,
@@ -44,16 +58,20 @@
     "Light Biff": 3.3,
     "Fried Calamari of a Biff": 3.29,
     "Soft Biff": 3.28,
+    "Level 2 Biff": 3.26,
+    "1976 Biff": 3.255,
     "Low Biff": 3.25,
     "Minor Biff": 3.28,
     "Biff Minus": 3.25,
     "Reserved Biff": 3.23,
     "Weak Biff": 3.2,
+    "Spectre Biff": 3.19,
     "Mild Biff": 3.18,
     "Biff Jr": 3.17,
     "Two Biffs and a John Jr": 3.16667,
     "Very Light Biff": 3.14,
     "Light Biff Jr": 3.12,
+    "Level 1 Biff": 3.11,
     "Very Weak Biff": 3.1,
     "Two John Jrs and a Biff": 2.83333,
     "High John Jr": 2.8,
@@ -65,7 +83,9 @@
     "Low John Jr": 2.35,
     "Weak John Jr": 2.25,
     "Alex": 1.5,
-    "Garbage": 0.75
+    "Garbage": 0.75,
+    "Jim Corrigan": -1,
+    "Billy Corgan": -1
   },
   "ratings": [
     {
@@ -2039,9 +2059,9 @@
       "date": "2020-08-13",
       "media": "Agents of SHIELD S7E12-13",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2049,9 +2069,9 @@
       "date": "2020-08-06",
       "media": "Agents of SHIELD S7E11",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2059,9 +2079,9 @@
       "date": "2020-07-30",
       "media": "Agents of SHIELD S7E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 1 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2069,9 +2089,9 @@
       "date": "2020-07-23",
       "media": "Agents of SHIELD S7E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 4 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2079,9 +2099,9 @@
       "date": "2020-07-16",
       "media": "Agents of SHIELD S7E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2089,9 +2109,9 @@
       "date": "2020-07-09",
       "media": "Agents of SHIELD S7E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 4 Biff",
+        "john": "Waverider Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2099,9 +2119,9 @@
       "date": "2020-07-02",
       "media": "Agents of SHIELD S7E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 2 Biff",
+        "john": "Level 4.2 Biff",
+        "dan": "1976 Biff"
       }
     },
     {
@@ -2109,9 +2129,9 @@
       "date": "2020-06-25",
       "media": "Agents of SHIELD S7E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 3 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2119,9 +2139,9 @@
       "date": "2020-06-18",
       "media": "Agents of SHIELD S7E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 4 Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2129,19 +2149,9 @@
       "date": "2020-06-12",
       "media": "Agents of SHIELD S7E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 48,
-      "date": "2020-06-05",
-      "media": "Legends of Tomorrow S5E14",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 3 Biff",
+        "john": "Biff",
+        "dan": "Alien Biff from the Future"
       }
     },
     {
@@ -2149,19 +2159,19 @@
       "date": "2020-06-05",
       "media": "Agents of SHIELD S7E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 3 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
-      "episode": 47,
-      "date": "2020-05-28",
-      "media": "Legends of Tomorrow S5E13",
+      "episode": 48,
+      "date": "2020-06-05",
+      "media": "Legends of Tomorrow S5E14",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 5 Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2169,9 +2179,19 @@
       "date": "2020-05-28",
       "media": "Agents of SHIELD S7E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 47,
+      "date": "2020-05-28",
+      "media": "Legends of Tomorrow S5E13",
+      "ratings": {
+        "guy": "Level 5 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2179,49 +2199,49 @@
       "date": "2020-05-20",
       "media": "Legends of Tomorrow S5E12",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 5 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 45,
       "date": "2020-05-13",
-      "media": "Legends of Tomorrow S5E11: Freaks and Greeks",
+      "media": "Legends of Tomorrow S5E11",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 2 Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 44,
       "date": "2020-05-06",
-      "media": "Legends of Tomorrow S5E10: Ship Broken",
+      "media": "Legends of Tomorrow S5E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Level 3 Biff",
+        "john": "Barking Jack Russell Terrier Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 43,
       "date": "2020-04-30",
-      "media": "Legends of Tomorrow S5E9: The Great British Fake Off",
+      "media": "Legends of Tomorrow S5E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Three out of Five Biffs",
+        "john": "Biff",
+        "dan": "Three out of Five Biffs"
       }
     },
     {
       "episode": 42,
       "date": "2020-04-22",
-      "media": "Legends of Tomorrow S5E8: Zari, Not Zari",
+      "media": "Legends of Tomorrow S5E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Four Biffs",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -2229,129 +2249,99 @@
       "date": "2020-04-15",
       "media": "Superman Returns",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 37,
       "date": "2020-03-18",
-      "media": "Legends of Tomorrow S5E7: Romeo v Juliet: Dawn of Justness",
+      "media": "Legends of Tomorrow S5E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 36,
       "date": "2020-03-12",
-      "media": "Legends of Tomorrow S5E6: Mr. Parker's Cul-De-Sac",
+      "media": "Legends of Tomorrow S5E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff Conklin",
+        "john": "Biff",
+        "dan": "Biff Conklin"
       }
     },
     {
       "episode": 34,
       "date": "2020-02-26",
-      "media": "Legends of Tomorrow S5E5: Mortal Khanbat",
+      "media": "Legends of Tomorrow S5E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff in Space",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 33,
       "date": "2020-02-19",
-      "media": "Legends of Tomorrow S5E4: A Head of Her Time",
+      "media": "Legends of Tomorrow S5E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 32,
       "date": "2020-02-12",
-      "media": "Legends of Tomorrow S5E3: Slay Anything",
+      "media": "Legends of Tomorrow S5E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Encore Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 31,
       "date": "2020-02-06",
-      "media": "Arrow S8E10: Fadeout",
+      "media": "Arrow S8E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 30,
       "date": "2020-01-22",
-      "media": "Arrow S8E9: Green Arrow and the Canaries",
+      "media": "Arrow S8E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Sarah Jr",
+        "john": "Captain Sarah Lance",
+        "dan": "Biff"
       }
     },
     {
       "episode": 29,
       "date": "2020-01-16",
-      "media": "Crisis on Infinite Earths ep 4",
+      "media": "Crisis on Infinite Earths ep 4-5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 29,
-      "date": "2020-01-16",
-      "media": "Crisis on Infinite Earths ep 5",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Sarah Jr",
+        "john": "Biff",
+        "dan": "Spectre Biff"
       }
     },
     {
       "episode": 26,
       "date": "2019-12-12",
-      "media": "Crisis on Infinite Earths ep 1",
+      "media": "Crisis on Infinite Earths ep 1-3",
       "ratings": {
-        "guy": null,
+        "guy": "Billy Corgan",
         "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 26,
-      "date": "2019-12-12",
-      "media": "Crisis on Infinite Earths ep 2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 26,
-      "date": "2019-12-12",
-      "media": "Crisis on Infinite Earths ep 3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "dan": "Jim Corrigan"
       }
     },
     {

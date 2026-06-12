@@ -477,7 +477,8 @@
         label: host.name,
         data: episodes.map((e, i) => {
           const name = e.ratings[host.key];
-          return { x: i, y: name ? ratingByName[name] : null };
+          const y = name ? ratingByName[name] : null;
+          return { x: i, y: (y !== null && y >= 0) ? y : null };
         }),
         borderColor: host.color,
         backgroundColor: host.color,
