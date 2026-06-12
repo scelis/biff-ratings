@@ -332,7 +332,7 @@
     }
 
     function panToIndex(idx) {
-      if (!chartInstance) return;
+      if (!chartInstance || idx === undefined) return;
       const n = chartInstance.data.datasets[0].data.length;
       const xScale = chartInstance.scales.x;
       const range = xScale.max - xScale.min; // preserve current zoom level
@@ -424,7 +424,18 @@
         return;
       }
 
-      chartInstance = buildChart(episodes, ratingByName, nameByValue);
+      // Only include episodes in the chart if they have at least one plottable
+      // (non-null, non-negative) rating. Tag each such episode with its chart
+      // index so table rows can pan to the right position.
+      const chartEpisodes = episodes.filter(ep =>
+        HOSTS.some(h => {
+          const v = ratingByName[ep.ratings[h.key]];
+          return v !== undefined && v >= 0;
+        })
+      );
+      chartEpisodes.forEach((ep, i) => ep.chartIndex = i);
+
+      chartInstance = buildChart(chartEpisodes, ratingByName, nameByValue);
       buildTable(episodes, ratingByName);
 
       document.getElementById("resetZoom").addEventListener("click", () => {
@@ -682,7 +693,7 @@
           if (activeRow) activeRow.classList.remove("active");
           activeRow = tr;
           tr.classList.add("active");
-          panToIndex(i);
+          panToIndex(ep.chartIndex);
         });
 
         // Sortable values per column (null = absent, sorts last)
