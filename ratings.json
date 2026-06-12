@@ -15,6 +15,7 @@
     "Impeccable Biff": 3.86,
     "Very Strong Biff": 3.85,
     "Full-Throated Biff": 3.84,
+    "A Biff that's Ten Steps Ahead of all other Biffs": 3.83,
     "An H on the Forehead Biff": 3.8,
     "Big Belly Biff": 3.79,
     "Kingpin-Sized Biff": 3.78,
@@ -28,6 +29,7 @@
     "Top Secret Level 4 Biff": 3.73,
     "Level 4 Biff": 3.72,
     "Four Biffs": 3.72,
+    "A Biff that's Four Steps Ahead of all other Biffs": 3.718,
     "Sarah Jr": 3.715,
     "Waverider Biff": 3.71,
     "Unabashed Biff": 3.7,
@@ -49,6 +51,7 @@
     "Biff Conklin": 3.5007,
     "Monica Rambiff": 3.5005,
     "Captain Sarah Lance": 3.501,
+    "Anatoly": 3.5011,
     "Three out of Five Biffs": 3.5002,
     "Level 3 Biff": 3.5001,
     "Biff": 3.5,
@@ -69,6 +72,7 @@
     "Mild Biff": 3.18,
     "Biff Jr": 3.17,
     "Two Biffs and a John Jr": 3.16667,
+    "Very Arrowy Biff": 3.15,
     "Very Light Biff": 3.14,
     "Light Biff Jr": 3.12,
     "Level 1 Biff": 3.11,
@@ -2347,101 +2351,81 @@
     {
       "episode": 25,
       "date": "2019-12-04",
-      "media": "Arrow S8E7: Purgatory",
+      "media": "Arrow S8E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 24,
       "date": "2019-11-27",
-      "media": "Arrow S8E6: Reset",
+      "media": "Arrow S8E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 23,
       "date": "2019-11-21",
-      "media": "Arrow S8E5: Prochnost",
+      "media": "Arrow S8E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Anatoly",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 22,
       "date": "2019-11-07",
-      "media": "Arrow S8E4: Present Tense",
+      "media": "Arrow S8E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Very Arrowy Biff",
+        "john": "Pretty Strong Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 21,
       "date": "2019-10-31",
-      "media": "Arrow S8E3: Leap of Faith",
+      "media": "Arrow S8E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Weak John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
       "episode": 20,
       "date": "2019-10-24",
-      "media": "Arrow S8E2: Welcome to Hong Kong",
+      "media": "Arrow S8E2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Weak Biff",
+        "john": "Biff",
+        "dan": "Weak Biff"
       }
     },
     {
       "episode": 19,
       "date": "2019-10-17",
-      "media": "Arrow S8E1: Starling City",
+      "media": "Arrow S8E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "A Biff that's Ten Steps Ahead of all other Biffs",
+        "john": "A Biff that's Four Steps Ahead of all other Biffs",
+        "dan": "Biff"
       }
     },
     {
       "episode": 18,
       "date": "2019-10-09",
-      "media": "Batwoman S1E1: Pilot",
+      "media": "Batwoman S1E1",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 16,
-      "date": "2019-09-24",
-      "media": "Superman: The Movie",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 13,
-      "date": "2019-09-03",
-      "media": "Jessica Jones S3",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "John Jr",
+        "john": "John Jr",
+        "dan": "John Jr"
       }
     },
     {
@@ -2449,139 +2433,119 @@
       "date": "2019-08-27",
       "media": "Agents of SHIELD S6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 11,
       "date": "2019-08-14",
-      "media": "Agents of SHIELD S6E12: The Sign",
+      "media": "Agents of SHIELD S6E12-13",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 11,
-      "date": "2019-08-14",
-      "media": "Agents of SHIELD S6E13: New Life",
-      "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Biff",
+        "john": "Biff",
         "dan": null
       }
     },
     {
       "episode": 10,
       "date": "2019-08-02",
-      "media": "Agents of SHIELD S6E11: From the Ashes",
+      "media": "Agents of SHIELD S6E11",
       "ratings": {
-        "guy": null,
-        "john": null,
+        "guy": "Biff",
+        "john": "Biff",
         "dan": null
       }
     },
     {
       "episode": 9,
       "date": "2019-07-23",
-      "media": "Agents of SHIELD S6E10: Leap",
+      "media": "Agents of SHIELD S6E10",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 8,
       "date": "2019-07-19",
-      "media": "Agents of SHIELD S6E9: Collision Course Part II",
+      "media": "Agents of SHIELD S6E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Strong Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 7,
       "date": "2019-07-09",
-      "media": "Agents of SHIELD S6E8: Collision Course Part I",
+      "media": "Agents of SHIELD S6E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 6,
       "date": "2019-07-02",
-      "media": "Agents of SHIELD S6E7: Toldja",
+      "media": "Agents of SHIELD S6E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 5,
       "date": "2019-06-25",
-      "media": "Agents of SHIELD S6E6: Inescapable",
+      "media": "Agents of SHIELD S6E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 4,
       "date": "2019-06-18",
-      "media": "Agents of SHIELD S6E5: The Other Thing",
+      "media": "Agents of SHIELD S6E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 3,
       "date": "2019-06-11",
-      "media": "Agents of SHIELD S6E4: Code Yellow",
+      "media": "Agents of SHIELD S6E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 2,
       "date": "2019-05-28",
-      "media": "Agents of SHIELD S6E3: Fear and Loathing on the Planet of Kitson",
+      "media": "Agents of SHIELD S6E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 1,
-      "date": "2019-05-14",
-      "media": "Agents of SHIELD S6E1: Missing Pieces",
+      "date": "2019-05-21",
+      "media": "Agents of SHIELD S6E1-2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 1,
-      "date": "2019-05-14",
-      "media": "Agents of SHIELD S6E2: Window of Opportunity",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     }
   ]
