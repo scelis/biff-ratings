@@ -12,7 +12,7 @@
 
   document.currentScript.insertAdjacentHTML('beforebegin',
     `<header class="site-header">
-    <img class="site-logo" src="https://www.theincomparable.com/imgs/logos/logo-biff-2x.jpg" alt="Biff! podcast logo">
+    <img class="site-logo" src="logo.jpg" alt="Biff! podcast logo">
     <div>
       <h1>Biff! Ratings</h1>
       <p class="tagline">In which we take a silly rating system very seriously.</p>
