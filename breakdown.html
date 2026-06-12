@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biff! Ratings — Breakdown</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <style>
+    body {
+      padding: 1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      gap: 0.75rem;
+    }
+
+    .page-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .charts-grid { grid-template-columns: 1fr; }
+    }
+
+    .chart-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.25rem 1.25rem 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .chart-card h2 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-align: center;
+      color: #444;
+      margin-bottom: 0.75rem;
+    }
+
+    .host-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+
+    .chart-wrap {
+      max-width: 260px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <script src="header.js"></script>
+
+  <main class="page-content">
+<div class="charts-grid">
+      <div class="chart-card">
+        <h2><span class="host-dot" style="background:#4e79a7"></span>Guy English</h2>
+        <div class="chart-wrap"><canvas id="chart-guy"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h2><span class="host-dot" style="background:#f28e2b"></span>John Moltz</h2>
+        <div class="chart-wrap"><canvas id="chart-john"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h2><span class="host-dot" style="background:#b07aa1"></span>Dan Moren</h2>
+        <div class="chart-wrap"><canvas id="chart-dan"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h2>All Hosts Combined</h2>
+        <div class="chart-wrap"><canvas id="chart-all"></canvas></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="footer.js"></script>
+
+  <script>
+    const HOSTS = [
+      { key: "guy",  name: "Guy English", color: "#4e79a7" },
+      { key: "john", name: "John Moltz",  color: "#f28e2b" },
+      { key: "dan",  name: "Dan Moren",   color: "#b07aa1" },
+    ];
+
+    // Tier ranges match the band boundaries in the main chart.
+    const TIERS = [
+      { label: "Biff",    min: 3.0, bg: "rgba(220,80,80,0.75)",   border: "rgba(220,80,80,1)" },
+      { label: "John Jr", min: 2.0, bg: "rgba(255,210,50,0.75)",  border: "rgba(200,165,40,1)" },
+      { label: "Alex",    min: 1.0, bg: "rgba(100,180,100,0.75)", border: "rgba(80,150,80,1)" },
+    ];
+
+    function classifyRating(value) {
+      if (value === null || value === undefined || value < 1.0) return null;
+      if (value >= 3.0) return "Biff";
+      if (value >= 2.0) return "John Jr";
+      return "Alex";
+    }
+
+    function buildPieChart(canvasId, counts) {
+      const ctx = document.getElementById(canvasId);
+      const total = TIERS.reduce((sum, t) => sum + (counts[t.label] || 0), 0);
+      new Chart(ctx, {
+        type: "pie",
+        data: {
+          labels: TIERS.map(t => t.label),
+          datasets: [{
+            data: TIERS.map(t => counts[t.label] || 0),
+            backgroundColor: TIERS.map(t => t.bg),
+            borderColor: TIERS.map(t => t.border),
+            borderWidth: 1,
+          }],
+        },
+        options: {
+          plugins: {
+            legend: {
+              position: "bottom",
+              labels: { font: { size: 11 }, padding: 14, boxWidth: 12 },
+            },
+            tooltip: {
+              callbacks: {
+                label: (ctx) => {
+                  const pct = total ? ((ctx.raw / total) * 100).toFixed(1) : 0;
+                  return `  ${ctx.raw} ratings (${pct}%)`;
+                },
+              },
+            },
+          },
+        },
+      });
+    }
+
+    async function init() {
+      let data;
+      try {
+        data = await fetch("ratings.json", { cache: "no-store" }).then(r => r.json());
+      } catch (e) {
+        document.querySelector(".page-content").innerHTML =
+          `<p style="color:#c0392b;font-weight:600">Failed to load ratings.json: ${e.message}</p>`;
+        return;
+      }
+
+      const ratingDefs = data.rating_definitions;
+
+      const counts = {
+        guy:  {},
+        john: {},
+        dan:  {},
+        all:  {},
+      };
+      for (const tier of TIERS) {
+        for (const key of Object.keys(counts)) counts[key][tier.label] = 0;
+      }
+
+      for (const ep of data.ratings) {
+        for (const host of HOSTS) {
+          const name = ep.ratings[host.key];
+          if (!name) continue;
+          const value = ratingDefs[name];
+          if (value === undefined) continue;
+          const tier = classifyRating(value);
+          if (!tier) continue;
+          counts[host.key][tier]++;
+          counts.all[tier]++;
+        }
+      }
+
+      buildPieChart("chart-guy",  counts.guy);
+      buildPieChart("chart-john", counts.john);
+      buildPieChart("chart-dan",  counts.dan);
+      buildPieChart("chart-all",  counts.all);
+    }
+
+    init();
+  </script>
+</body>
+</html>
