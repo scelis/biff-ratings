@@ -28,6 +28,7 @@
     "Pretty Strong Biff": 3.68,
     "Carl Lumbly": 3.56,
     "She-Biff": 3.55,
+    "Wanda": 3.54,
     "Biff from Space": 3.52,
     "Unreserved Biff": 3.51,
     "Biff of Khonshu": 3.505,
@@ -35,6 +36,7 @@
     "Christmas Owl Biff": 3.503,
     "Biff with a Giant Mustache": 3.502,
     "Biff Conklin Dressed in a Thanos Mask": 3.501,
+    "Monica Rambiff": 3.5005,
     "Biff": 3.5,
     "Golf Cart Chase Full of Jokes Biff": 3.495,
     "Future TOKIN' Biff": 3.49,
@@ -1921,23 +1923,13 @@
       }
     },
     {
-      "episode": 82,
-      "date": "2021-03-16",
-      "media": "Superman & Lois S1E1",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
       "episode": 81,
       "date": "2021-03-08",
       "media": "WandaVision S1E9",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1945,9 +1937,9 @@
       "date": "2021-03-02",
       "media": "WandaVision S1E8",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Monica Rambiff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1955,9 +1947,9 @@
       "date": "2021-02-23",
       "media": "WandaVision S1E7",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Wanda",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1965,9 +1957,9 @@
       "date": "2021-02-17",
       "media": "WandaVision S1E6",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1975,9 +1967,9 @@
       "date": "2021-02-09",
       "media": "WandaVision S1E5",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1985,9 +1977,9 @@
       "date": "2021-02-02",
       "media": "WandaVision S1E4",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
@@ -1995,29 +1987,20 @@
       "date": "2021-01-26",
       "media": "WandaVision S1E3",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
       }
     },
     {
       "episode": 74,
       "date": "2021-01-19",
-      "media": "WandaVision S1E1",
+      "media": "WandaVision S1E1-2",
       "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
-      }
-    },
-    {
-      "episode": 74,
-      "date": "2021-01-19",
-      "media": "WandaVision S1E2",
-      "ratings": {
-        "guy": null,
-        "john": null,
-        "dan": null
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff",
+        "lisa": "Biff"
       }
     },
     {
