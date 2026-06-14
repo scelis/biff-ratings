@@ -434,24 +434,150 @@
         },
       };
 
+      function drawSplitCircle(ctx, x, y, radius, colors, alphas) {
+        // Use alpha as wedge-size weight so the circle stays fully filled during animation.
+        // As a color's alpha drops toward 0, its slice shrinks and the others expand — no
+        // transparent gap ever exposes the white background.
+        const visible = colors.map((c, i) => ({ color: c, alpha: alphas[i] })).filter(e => e.alpha > 0);
+        if (visible.length === 0) return;
+
+        const total = visible.reduce((s, e) => s + e.alpha, 0);
+
+        if (visible.length === 1) {
+          ctx.save();
+          ctx.globalAlpha = visible[0].alpha;
+          ctx.beginPath();
+          ctx.arc(x, y, radius, 0, 2 * Math.PI);
+          ctx.fillStyle = visible[0].color;
+          ctx.fill();
+          ctx.restore();
+        } else {
+          let angleStart = -Math.PI / 2;
+          for (const { color, alpha } of visible) {
+            const sweep = (alpha / total) * 2 * Math.PI;
+            const angleEnd = angleStart + sweep;
+            ctx.save();
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.arc(x, y, radius * 2, angleStart, angleEnd);
+            ctx.closePath();
+            ctx.clip();
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+            ctx.restore();
+            angleStart = angleEnd;
+          }
+        }
+
+        ctx.save();
+        if (visible.length === 1) ctx.globalAlpha = visible[0].alpha;
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        ctx.strokeStyle = "rgba(255,255,255,0.9)";
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        ctx.restore();
+      }
+
+      const hostAlphas = HOSTS.map(() => 1.0);
+      let fadeAnimating = false;
+
+      function stepFade(chart) {
+        const dt = 16 / 250;
+        let still = false;
+        HOSTS.forEach((_, di) => {
+          const target = chart.getDatasetMeta(di).hidden ? 0 : 1;
+          const diff = target - hostAlphas[di];
+          if (Math.abs(diff) < dt) {
+            hostAlphas[di] = target;
+          } else {
+            hostAlphas[di] += Math.sign(diff) * dt;
+            still = true;
+          }
+        });
+        chart.draw();
+        if (still) requestAnimationFrame(() => stepFade(chart));
+        else fadeAnimating = false;
+      }
+
+      const splitDotPlugin = {
+        id: "splitDots",
+        afterDatasetsDraw(chart) {
+          const { ctx, chartArea, scales: { x: xScale, y: yScale }, data: { datasets } } = chart;
+          const n = datasets[0]?.data.length ?? 0;
+          const RADIUS = 7;
+
+          ctx.save();
+          ctx.beginPath();
+          ctx.rect(chartArea.left, chartArea.top, chartArea.width, chartArea.height);
+          ctx.clip();
+
+          for (let i = 0; i < n; i++) {
+            const xPixel = xScale.getPixelForValue(i);
+            if (xPixel < chartArea.left - RADIUS || xPixel > chartArea.right + RADIUS) continue;
+
+            // Group hosts by y-value using a rounded key to avoid float collisions
+            const byY = new Map();
+            datasets.forEach((dataset, di) => {
+              if (dataset.isAverage) return;
+              if (hostAlphas[di] <= 0) return;
+              const point = dataset.data[i];
+              if (!point || point.y == null) return;
+              const key = Math.round(point.y * 1000);
+              if (!byY.has(key)) byY.set(key, { yVal: point.y, colors: [], alphas: [] });
+              byY.get(key).colors.push(dataset.borderColor);
+              byY.get(key).alphas.push(hostAlphas[di]);
+            });
+
+            for (const { yVal, colors, alphas } of byY.values()) {
+              const yPixel = yScale.getPixelForValue(yVal);
+              drawSplitCircle(ctx, xPixel, yPixel, RADIUS, colors, alphas);
+            }
+          }
+
+          ctx.restore();
+        },
+      };
+
       const n = episodes.length;
       const initialMin = Math.max(0, n - DEFAULT_WINDOW);
 
       // Use {x, y} point format with a linear x-axis so zoom/pan work cleanly
-      const datasets = HOSTS.map(host => ({
-        label: host.name,
-        data: episodes.map((e, i) => {
-          const name = e.ratings[host.key];
-          const y = name ? ratingByName[name] : null;
-          return { x: i, y: (y !== null && y >= 0) ? y : null };
-        }),
-        borderColor: host.color,
-        backgroundColor: host.color,
-        pointRadius: 4,
-        pointHoverRadius: 6,
-        spanGaps: false,
-        tension: 0.1,
-      }));
+      const datasets = [
+        ...HOSTS.map(host => ({
+          label: host.name,
+          data: episodes.map((e, i) => {
+            const name = e.ratings[host.key];
+            const y = name ? ratingByName[name] : null;
+            return { x: i, y: (y !== null && y >= 0) ? y : null };
+          }),
+          borderColor: host.color,
+          backgroundColor: host.color,
+          pointRadius: 0,
+          pointHoverRadius: 0,
+          showLine: false,
+        })),
+        {
+          label: "Average",
+          data: episodes.map((e, i) => {
+            const vals = HOSTS.map(h => {
+              const name = e.ratings[h.key];
+              return name ? ratingByName[name] : null;
+            }).filter(v => v !== null && v >= 0);
+            const avg = vals.length ? vals.reduce((s, v) => s + v, 0) / vals.length : null;
+            return { x: i, y: avg };
+          }),
+          borderColor: "rgba(50,50,50,0.55)",
+          backgroundColor: "rgba(50,50,50,0.55)",
+          pointStyle: "triangle",
+          pointRadius: 6,
+          pointHoverRadius: 7,
+          showLine: false,
+          isAverage: true,
+        },
+      ];
 
       // Create an HTML overlay inside the chart card so axis labels are
       // real <a> elements — native link cursor, underline on hover, right-click
@@ -510,7 +636,7 @@
       const chart = new Chart(document.getElementById("chart"), {
         type: "line",
         data: { datasets },
-        plugins: [bandPlugin, titleLabelPlugin],
+        plugins: [bandPlugin, splitDotPlugin, titleLabelPlugin],
         options: {
           responsive: true,
           maintainAspectRatio: false,
@@ -566,6 +692,13 @@
           },
           plugins: {
             legend: {
+              onClick(e, item, legend) {
+                Chart.defaults.plugins.legend.onClick.call(this, e, item, legend);
+                if (!fadeAnimating) {
+                  fadeAnimating = true;
+                  requestAnimationFrame(() => stepFade(legend.chart));
+                }
+              },
               labels: isMobile
                 ? { font: { size: 11 }, boxWidth: 24, padding: 8 }
                 : {},
@@ -597,6 +730,7 @@
               },
             },
             tooltip: {
+              filter: item => !item.dataset.isAverage,
               callbacks: {
                 title(items) {
                   const ep = episodes[Math.round(items[0].parsed.x)];
