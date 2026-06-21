@@ -1,12 +1,12 @@
 (function () {
   const page = location.pathname.split('/').pop() || 'index.html';
   const NAV = [
-    { href: 'index.html',     label: 'Ratings'   },
+    { href: '/',              label: 'Ratings'   },
     { href: 'breakdown.html', label: 'Breakdown' },
     { href: 'about.html',     label: 'About'     },
   ];
   const links = NAV.map(({ href, label }) => {
-    const current = href === page ? ' aria-current="page"' : '';
+    const current = (href === '/' ? 'index.html' : href) === page ? ' aria-current="page"' : '';
     return `<a href="${href}" class="nav-link"${current}>${label}</a>`;
   }).join('\n      ');
 
