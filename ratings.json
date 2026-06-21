@@ -93,6 +93,26 @@
   },
   "ratings": [
     {
+      "episode": 268,
+      "date": "2026-06-15",
+      "media": "Spider-Noir S1E4",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 268,
+      "date": "2026-06-15",
+      "media": "Spider-Noir S1E3",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
       "episode": 267,
       "date": "2026-06-01",
       "media": "Spider-Noir S1E1-2",
