@@ -95,6 +95,16 @@
   },
   "ratings": [
     {
+      "episode": 271,
+      "date": "2026-07-07",
+      "media": "X-Men '97 S2E1-3",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
       "episode": 270,
       "date": "2026-06-29",
       "media": "Spider-Noir S1E8",
