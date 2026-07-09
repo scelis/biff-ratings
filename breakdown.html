@@ -153,7 +153,7 @@
     const TIERS = [
       { label: "Biff",    min: 3.0, bg: "rgba(220,80,80,0.75)",   border: "rgba(180,40,40,1)" },
       { label: "John Jr", min: 2.0, bg: "rgba(255,210,50,0.75)",  border: "rgba(200,165,40,1)" },
-      { label: "Alex",    min: 1.0, bg: "rgba(100,180,100,0.75)", border: "rgba(80,150,80,1)" },
+      { label: "Alex",    min: 0,   bg: "rgba(100,180,100,0.75)", border: "rgba(80,150,80,1)" },
     ];
 
     const SUB_TIERS = [
@@ -163,18 +163,18 @@
       { label: "Strong John Jr",  min: 2.667, bg: "rgba(205,155,5,0.90)",   border: "rgba(170,120,0,1)" },
       { label: "Regular John Jr", min: 2.333, bg: "rgba(238,193,26,0.82)",  border: "rgba(200,158,15,1)" },
       { label: "Weak John Jr",    min: 2.0,   bg: "rgba(255,235,120,0.72)", border: "rgba(200,165,40,1)" },
-      { label: "Alex",            min: 1.0,   bg: "rgba(100,180,100,0.75)", border: "rgba(80,150,80,1)" },
+      { label: "Alex",            min: 0,     bg: "rgba(100,180,100,0.75)", border: "rgba(80,150,80,1)" },
     ];
 
     function classifyRating(value) {
-      if (value === null || value === undefined || value < 1.0) return null;
+      if (value === null || value === undefined || value <= 0) return null;
       if (value >= 3.0) return "Biff";
       if (value >= 2.0) return "John Jr";
       return "Alex";
     }
 
     function classifySubRating(value) {
-      if (value === null || value === undefined || value < 1.0) return null;
+      if (value === null || value === undefined || value <= 0) return null;
       for (const st of SUB_TIERS) {
         if (value >= st.min) return st.label;
       }
