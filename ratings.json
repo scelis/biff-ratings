@@ -95,6 +95,36 @@
   },
   "ratings": [
     {
+      "episode": 272,
+      "date": "2026-07-21",
+      "media": "My Adventures With Superman S3E3",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 272,
+      "date": "2026-07-21",
+      "media": "My Adventures With Superman S3E2",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
+      "episode": 272,
+      "date": "2026-07-21",
+      "media": "My Adventures With Superman S3E1",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
+    {
       "episode": 271,
       "date": "2026-07-07",
       "media": "X-Men '97 S2E1-3",
