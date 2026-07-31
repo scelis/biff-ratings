@@ -57,6 +57,7 @@
     "Three out of Five Biffs": 3.5002,
     "Level 3 Biff": 3.5001,
     "Biff": 3.5,
+    "Biff The Lovers, Biff Death, Biff The Tower": 3.497,
     "Golf Cart Chase Full of Jokes Biff": 3.495,
     "Future TOKIN' Biff": 3.49,
     "Historical Biff": 3.31,
@@ -94,6 +95,16 @@
     "Billy Corgan": -1
   },
   "ratings": [
+    {
+      "episode": 273,
+      "date": "2026-07-27",
+      "media": "X-Men '97 S2E4-6",
+      "ratings": {
+        "guy": "Biff The Lovers, Biff Death, Biff The Tower",
+        "john": "Biff",
+        "dan": "Biff"
+      }
+    },
     {
       "episode": 272,
       "date": "2026-07-21",
