@@ -360,24 +360,6 @@
         a.episode !== b.episode ? a.episode - b.episode : a.media.localeCompare(b.media)
       );
 
-      // Validate: collect any rating names used in episodes that don't exist
-      // in the ratings definition array.
-      const unknownRatings = new Set();
-      for (const ep of episodes) {
-        for (const key of Object.keys(ep.ratings)) {
-          const name = ep.ratings[key];
-          if (name !== null && !(name in ratingByName)) {
-            unknownRatings.add(name);
-          }
-        }
-      }
-      if (unknownRatings.size > 0) {
-        showError("Rating validation error",
-          `<p>The following rating names appear in episodes but are not defined in the ratings array:</p>
-           <ul>${[...unknownRatings].sort().map(n => `<li><code>${n}</code></li>`).join("")}</ul>`);
-        return;
-      }
-
       // Only include episodes in the chart if they have at least one plottable
       // (non-null, non-negative) rating. Tag each such episode with its chart
       // index so table rows can pan to the right position.
