@@ -24,6 +24,7 @@
     "Ball Pit Biff": 3.765,
     "Hulky Biff": 3.76,
     "Level 4.2 Biff": 3.755,
+    "Slammin' Biff": 3.754,
     "Big Biff": 3.752,
     "Worth Staying Up Way Past Your Bedtime to Watch Kind of Biff": 3.751,
     "Strong Biff": 3.75,
@@ -95,6 +96,33 @@
     "Billy Corgan": -1
   },
   "ratings": [
+    {
+      "episode": 274,
+      "date": "2026-08-03",
+      "media": "My Adventures With Superman S3E6",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Biff"
+      }
+    },
+    {
+      "episode": 274,
+      "date": "2026-08-03",
+      "media": "My Adventures With Superman S3E5",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Pretty Strong Biff"
+      }
+    },
+    {
+      "episode": 274,
+      "date": "2026-08-03",
+      "media": "My Adventures With Superman S3E4",
+      "ratings": {
+        "guy": "Slammin' Biff",
+        "john": "Slammin' Biff"
+      }
+    },
     {
       "episode": 273,
       "date": "2026-07-27",
