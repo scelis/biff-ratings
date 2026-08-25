@@ -356,8 +356,13 @@
       // The table uses jsonIndex as a tiebreaker so same-numbered episodes
       // appear in JSON file order (newest entry first).
       data.ratings.forEach((ep, i) => ep.jsonIndex = i);
+
+      // The chart runs oldest-to-newest, so it needs the reverse of the table's
+      // newest-first order: ascending episode number, with same-numbered
+      // episodes in reverse JSON order. That keeps a segment's first JSON entry
+      // (e.g. the season wrap-up rating) at the right-hand end of its group.
       const episodes = [...data.ratings].sort((a, b) =>
-        a.episode !== b.episode ? a.episode - b.episode : a.media.localeCompare(b.media)
+        a.episode !== b.episode ? a.episode - b.episode : b.jsonIndex - a.jsonIndex
       );
 
       // Only include episodes in the chart if they have at least one plottable
