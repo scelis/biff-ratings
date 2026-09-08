@@ -98,6 +98,42 @@
   },
   "ratings": [
     {
+      "episode": 277,
+      "date": "2026-09-01",
+      "media": "My Adventures With Superman S3E10",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff"
+      }
+    },
+    {
+      "episode": 277,
+      "date": "2026-09-01",
+      "media": "My Adventures With Superman S3E9",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff"
+      }
+    },
+    {
+      "episode": 277,
+      "date": "2026-09-01",
+      "media": "My Adventures With Superman S3E8",
+      "ratings": {
+        "guy": "Light Biff",
+        "john": "Biff"
+      }
+    },
+    {
+      "episode": 277,
+      "date": "2026-09-01",
+      "media": "My Adventures With Superman S3E7",
+      "ratings": {
+        "guy": "Biff",
+        "john": "Biff"
+      }
+    },
+    {
       "episode": 276,
       "date": "2026-08-18",
       "media": "X-Men '97 S2",
