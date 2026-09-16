@@ -99,6 +99,26 @@
   },
   "ratings": [
     {
+      "episode": 279,
+      "date": "2026-09-15",
+      "media": "Lanterns S1E4",
+      "ratings": {
+        "guy": "Very Strong Biff",
+        "john": "Very Strong Biff",
+        "dan": "Very Strong Biff"
+      }
+    },
+    {
+      "episode": 279,
+      "date": "2026-09-15",
+      "media": "Lanterns S1E3",
+      "ratings": {
+        "guy": "Strong Biff",
+        "john": "Strongest of Biffs",
+        "dan": "Biff"
+      }
+    },
+    {
       "episode": 278,
       "date": "2026-09-08",
       "media": "Lanterns S1E2",
