@@ -9,6 +9,6 @@ jobs:
   validate-ratings:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Validate ratings.json
         run: python3 scripts/validate_ratings.py
