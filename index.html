@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.2.0/dist/chartjs-plugin-zoom.min.js"></script>
   <style>
     html, body {
       height: 100%;
@@ -629,6 +629,10 @@
           maintainAspectRatio: false,
           layout: { padding: { left: isMobile ? 10 : 20, right: isMobile ? 10 : 20 } },
           interaction: { mode: "index", intersect: false },
+          // Wheel/pinch zoom updates use the "zoom" transition mode. Disable its
+          // animation so the average triangles move in lockstep with the host
+          // dots, which splitDotPlugin draws directly from the current scale.
+          transitions: { zoom: { animation: { duration: 0 } } },
           scales: {
             x: {
               type: "linear",
