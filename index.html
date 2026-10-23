@@ -633,6 +633,9 @@
           // animation so the average triangles move in lockstep with the host
           // dots, which splitDotPlugin draws directly from the current scale.
           transitions: { zoom: { animation: { duration: 0 } } },
+          // Don't animate vertical positions either, so on first load the
+          // triangles appear in place instead of rising from the bottom.
+          animations: { y: { duration: 0 } },
           scales: {
             x: {
               type: "linear",
